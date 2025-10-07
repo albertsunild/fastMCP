@@ -1,9 +1,27 @@
 from fastmcp import FastMCP
+from fastmcp.server.auth.providers.jwt import JWTVerifier
 import random
 import json
+import os
+
+from dotenv import load_dotenv, find_dotenv
+
+# Load .env from this folder or any parent
+load_dotenv(find_dotenv())
+
+AUTH_SECRET = os.environ["AUTH_SECRET"]
+AUTH_ISSUER = os.environ["AUTH_ISSUER"]
+AUTH_AUDIENCE = os.environ["AUTH_AUDIENCE"]
+
+verifier = JWTVerifier(
+    public_key=AUTH_SECRET,
+    issuer=AUTH_ISSUER,
+    audience=AUTH_AUDIENCE,
+    algorithm="HS256"
+)
 
 # Create the FASTMCP
-mcp = FastMCP("Simple Math MCP Server")
+mcp = FastMCP("Simple Math MCP Server", auth=verifier)
 
 @mcp.tool
 def add(a: int, b: int) -> int:
@@ -61,3 +79,11 @@ def server_info() -> str:
 
 if __name__ == "__main__":
     mcp.run(transport="http", host="127.0.0.1", port=8000)
+
+##to execute this file, run: 
+# fastmcp run server.py --transport http --host 127.0.0.1 --port 8000
+# fastmcp run <filename> --transport <transport_type> --host <host_address> --port <port_number>
+
+
+#how to run mcp inspector:
+#<npx @modelcontextprotocol/inspector>
