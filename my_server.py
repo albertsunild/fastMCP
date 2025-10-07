@@ -4,24 +4,8 @@ import random
 import json
 import os
 
-from dotenv import load_dotenv, find_dotenv
-
-# Load .env from this folder or any parent
-load_dotenv(find_dotenv())
-
-AUTH_SECRET = os.environ["AUTH_SECRET"]
-AUTH_ISSUER = os.environ["AUTH_ISSUER"]
-AUTH_AUDIENCE = os.environ["AUTH_AUDIENCE"]
-
-verifier = JWTVerifier(
-    public_key=AUTH_SECRET,
-    issuer=AUTH_ISSUER,
-    audience=AUTH_AUDIENCE,
-    algorithm="HS256"
-)
-
 # Create the FASTMCP
-mcp = FastMCP("Simple Math MCP Server", auth=verifier)
+mcp = FastMCP("Simple Math MCP Server")
 
 @mcp.tool
 def add(a: int, b: int) -> int:
