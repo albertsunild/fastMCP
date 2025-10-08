@@ -7,7 +7,16 @@ import os
 # Create the FASTMCP
 mcp = FastMCP("Simple Math MCP Server")
 
-@mcp.tool
+@mcp.tool(annotations={
+    "a": {
+        "description": "The first integer to add",
+        "example": 5
+    },
+    "b": {
+        "description": "The second integer to add",
+        "example": 3
+    }
+})
 def add(a: int, b: int) -> int:
     """
     Simple addition tool.
@@ -21,7 +30,16 @@ def add(a: int, b: int) -> int:
     """
     return a + b
 
-@mcp.tool
+@mcp.tool(annotations={
+    "a": {
+        "description": "The integer to subtract from",
+        "example": 10
+    },
+    "b": {
+        "description": "The integer to subtract",
+        "example": 4
+    }
+})
 def sub(a: int, b: int) -> int:
     """
     Simple subtraction tool.
@@ -35,7 +53,16 @@ def sub(a: int, b: int) -> int:
     """
     return a - b
 
-@mcp.tool
+@mcp.tool(annotations={
+    "min_val": {
+        "description": "The minimum value (inclusive)",
+        "example": 0
+    },
+    "max_val": {
+        "description": "The maximum value (inclusive)",
+        "example": 100
+    }
+})
 def random_number(min_val: int = 0, max_val: int = 100) -> int:
     """
     Generate a random integer between min_val and max_val.
