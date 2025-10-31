@@ -3,9 +3,6 @@ from datetime import datetime, timezone, timedelta
 from fastmcp import FastMCP
 from pydantic import BaseModel, Field
 
-
-
-
 # ===================================================
 # FastMCP Server Setup
 # ===================================================
