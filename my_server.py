@@ -6,7 +6,6 @@ from fastmcp.server.dependencies import get_http_headers  # Import for headers a
 import logging
 from fastmcp.server.auth.providers.jwt import JWTVerifier
 from datetime import datetime
-
 from pydantic import Field, StringConstraints
 
 
@@ -79,13 +78,55 @@ def load_mock(filename: str) -> Dict[str, Any]:
 def search_celebrations(
     notBeforeDate: Annotated[datetime | None, Field(description="Do not include celebrations with a date before this value")],
     notAfterDate: Annotated[datetime | None, Field(description="Do not include celebrations with a date after this value")],
-    searchQuery: Annotated[
-        Optional[Annotated[str, StringConstraints(min_length=2, strict=True)]],
-        Field(description="String to search for in the search property")] = None,
+    searchQuery: Annotated[Optional[Annotated[str, StringConstraints(min_length=2, strict=True)]],Field(description="String to search for in the search property")] = None,
     searchProperty: Annotated[Literal["name", "email"], Field(description="Property to search by")] = "name",
     team: Annotated[Literal["my_team", "other_teams", "all"], Field(description="Only show results for individuals that fit this team segmentation")] = "my_team",
     timePeriod: Annotated[Literal["future", "past"], Field(description="Only show results that occurred in either the future or the past")] = "future"
     ) -> Dict[str, Any]:
+
+    """
+    Search for service anniversary celebrations based on date range, team segmentation,
+    text search, and time period (future or past).
+
+    JSON Schema for tool parameters:
+    {
+    "type": "object",
+    "properties": {
+        "notBeforeDate": {
+        "type": ["string", "null"],
+        "format": "date-time",
+        "description": "Do not include celebrations with a date earlier than this value. Must be ISO-8601. Use null for no lower bound."
+        },
+        "notAfterDate": {
+        "type": ["string", "null"],
+        "format": "date-time",
+        "description": "Do not include celebrations with a date later than this value. Must be ISO-8601. Use null for no upper bound."
+        },
+        "searchQuery": {
+        "type": ["string", "null"],
+        "minLength": 2,
+        "description": "Text to search for within the selected searchProperty. Must be at least 2 characters. Use null for no keyword filter."
+        },
+        "searchProperty": {
+        "type": "string",
+        "enum": ["name", "email"],
+        "description": "Specifies which property to search in. 'name' searches by person’s full name; 'email' searches by email address."
+        },
+        "team": {
+        "type": "string",
+        "enum": ["my_team", "other_teams", "all"],
+        "description": "Filter celebrations by team segmentation. 'my_team' = only user's team; 'other_teams' = not user's team; 'all' = everyone."
+        },
+        "timePeriod": {
+        "type": "string",
+        "enum": ["future", "past"],
+        "description": "Filter celebrations by time period: 'future' = upcoming celebrations, 'past' = already occurred celebrations."
+        }
+    },
+    "required": ["notBeforeDate", "notAfterDate"]
+    }
+    """
+
 
     data = load_mock("20251107-mock-data-search_celebrations.json")
     celebrations = data["celebrations"]
