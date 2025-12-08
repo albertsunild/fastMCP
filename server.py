@@ -27,13 +27,7 @@ auth = JWTVerifier(
 # ============================================================
 # MCP Server Setup
 # ============================================================
-mcp = FastMCP("Service_Awards_MCP_Server", 
-              version="0.1.0",
-              host="localhost",
-              port=8080,
-              stateless_http=True,
-              #auth=auth
-              )
+mcp = FastMCP()
 
 # ------------------------------------------------------------
 # Mock Data Directory
