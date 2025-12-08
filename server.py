@@ -1,485 +1,255 @@
-import uuid
-from datetime import datetime, timezone, timedelta
-from fastmcp import FastMCP
-from pydantic import BaseModel, Field
+import json
+import os
+from typing import Any, Dict, List, Literal
+from fastmcp import FastMCP, Context
+from fastmcp.server.dependencies import get_http_headers  # Import for headers access
+import logging
+from fastmcp.server.auth.providers.jwt import JWTVerifier
 
-# ===================================================
-# FastMCP Server Setup
-# ===================================================
-mcp = FastMCP("Service_Anniversary_MCP_Server")
 
-# ===================================================
-# MOCK HELPERS
-# ===================================================
-def _mock_person(i: int) -> dict:
-    """Generate mock person details for demonstration."""
-    return {
-        "rosterPersonId": str(uuid.uuid4()),
-        "firstName": f"User{i}",
-        "lastName": "Example",
-        "emailAddress": f"user{i}@example.com",
-        "avatarUrl": "https://example.com/avatar.png",
-        "jobTitle": "Software Engineer",
-        "isInMyTeam": (i % 2 == 0)
+# Enable detailed logging
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger("fastmcp.server.context.to_client")
+log.setLevel(logging.DEBUG)
+
+
+OKTA_ISSUER = os.getenv("OIDC_ISSUER", "https://trial-9445494.okta.com/oauth2/default")
+OKTA_AUDIENCE = os.getenv("OIDC_AUDIENCE", "api://default")
+
+auth = JWTVerifier(
+    jwks_uri=f"{OKTA_ISSUER}/v1/keys",     # Okta JWKS endpoint
+    issuer=OKTA_ISSUER,                    # Must match the 'iss' in your token
+    audience=OKTA_AUDIENCE,                # Must match 'aud' claim in your token
+    algorithm="RS256",                      # Okta uses RS256 by default
+    required_scopes= ["mcp.read", "mcp.write"]
+)
+
+# ============================================================
+# MCP Server Setup
+# ============================================================
+mcp = FastMCP("Service_Awards_MCP_Server", 
+              version="0.1.0",
+              host="localhost",
+              port=8080,
+              stateless_http=True,
+              #auth=auth
+              )
+
+# ------------------------------------------------------------
+# Mock Data Directory
+# ------------------------------------------------------------
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#MOCK_DATA_DIR = os.path.join(BASE_DIR,"..", "mock_data")
+MOCK_DATA_DIR = os.path.join(BASE_DIR, "mock_data")
+# ============================================================
+# UNIVERSAL NORMALIZED MOCK LOADER
+# Handles ANY JSON shape provided by the client.
+# ============================================================
+def load_mock(filename: str) -> Dict[str, Any]:
+    """
+    Loads a JSON file and normalizes its structure to avoid errors.
+    Supports shapes:
+      - dict
+      - list of dicts
+      - {"data": {...}}
+      - [{"data": {...}}]
+    Ensures tools can always access:
+      celebration, celebrations, comments, people, comment, metadata
+    """
+
+    full_path = os.path.join(MOCK_DATA_DIR, filename)
+
+    with open(full_path, "r") as f:
+        raw = json.load(f)
+
+    # If list → take first element
+    if isinstance(raw, list):
+        raw = raw[0] if raw else {}
+
+    # If {"data": {...}} → unwrap
+    if isinstance(raw, dict) and "data" in raw and isinstance(raw["data"], dict):
+        raw = raw["data"]
+
+    # Force dictionary
+    if not isinstance(raw, dict):
+        raw = {}
+
+    # Normalize structure
+    normalized = {
+        "celebration": raw.get("celebration", {}),
+        "celebrations": raw.get("celebrations", []),
+        "comments": raw.get("comments", []),
+        "people": raw.get("people", []),
+        "comment": raw.get("comment", {}),
+        "metadata": raw.get("metadata", {})
     }
 
-def _mock_celebration(i: int) -> dict:
-    """Generate mock celebration details for demonstration."""
-    now = datetime.now(timezone.utc)
-    return {
-        "celebrationId": str(uuid.uuid4()),
-        "milestoneName": f"Service Anniversary {i}",
-        "date": (now + timedelta(days=(i * 7))).isoformat(),
-        "imageUrl": "https://example.com/milestone.png",
-        "totalInvites": 5 + i,
-        "canContribute": True,
-        "hasContributed": (i % 2 == 0),
-        "hasCelebratorThanked": (i % 3 == 0),
-        "allowPrivateComments": True,
-        "thankYouMessage": {
-            "comment": "Thanks team!",
-            "totalLikes": i
-        },
-        "celebrator": _mock_person(i)
-    }
-
-def _mock_person_search(query: str, limit: int = 5):
-    """Generate mock person search results."""
-    results = []
-    for i in range(1, limit + 1):
-        results.append({
-            "rosterPersonId": str(uuid.uuid4()),
-            "firstName": f"{query.capitalize()}_{i}",
-            "lastName": "Example",
-            "emailAddress": f"{query.lower()}{i}@example.com",
-            "avatarUrl": "https://example.com/avatar.png",
-            "jobTitle": "Software Engineer",
-            "isCurrentUser": False
-        })
-    return results
-
-# ===================================================
-# TOOL IMPLEMENTATIONS
-# ===================================================
+    return normalized
 
 
-mcp=FastMCP('mcp_biw_toolkit')
-
-class Pagination(BaseModel):
-    limit: int = Field("limit")
-    cursor: int = Field("cursor")
-
-class Filters(BaseModel):
-    team: str = Field()
-    timePeriod: str = Field()
-    notBeforeDate: str = Field()
-    notAfterDate: str = Field()
-
-class Search(BaseModel):
-    by: str = Field()
-    identifier: str = Field()
-
-class QueryFields(BaseModel):
-    search: Search = Field(default_factory=Search)
-    pagination: Pagination = Field(default_factory=Pagination)
-    filters: Filters = Field(default_factory=Filters)
-
-class Query(BaseModel):
-    query: QueryFields = Field(default_factory=QueryFields,description="query felds")
-
-@mcp.tool(name="search")
-def search(query: Query) -> dict:
-    """
-    Search for service anniversary celebrations based on criteria.
-    args:
-        query (Query): The search query parameters.
-    returns:
-        dict: A dictionary containing the search results and metadata.
-    """
-    limit = query.query.pagination.limit
-    cursor = query.query.pagination.cursor
-
-    celebrations = [_mock_celebration(i + cursor + 1) for i in range(limit)]
-    metadata = {"total": 100, "nextCursor": cursor + limit}
-
-    return {"celebrations": celebrations, "metadata": metadata}
-
-# search_input_schema = {
-#     "type": "object",
-#     "properties": {
-#         "query": {
-#         "type": "object",
-#         "properties": {
-#             "search": {
-#             "type": "object",
-#             "properties": {
-#                 "by": { "type": "string", "enum": ["email", "name"] },
-#                 "identifier": { "type": "string" }
-#             },
-#             "required": ["by", "identifier"]
-#             },
-#             "filters": {
-#             "type": "object",
-#             "properties": {
-#                 "team": { "type": "string", "enum": ["my_team", "other_teams", "all"] },
-#                 "timePeriod": { "type": "string", "enum": ["future", "past"] },
-#                 "notBeforeDate": { "type": "string", "format": "date" },
-#                 "notAfterDate": { "type": "string", "format": "date" }
-#             }
-#             },
-#             "pagination": {
-#             "type": "object",
-#             "properties": {
-#                 "limit": { "type": "integer" },
-#                 "cursor": { "type": "integer" }
-#             }
-#             }
-#         }
-#         }
-#     }
-# }
-
-# @mcp.tool(
-#     # name="search",
-#     # description="Search for service anniversary celebrations based on criteria.",
-#     #input_schema=search_input_schema
-# )
-
-# def search(query: dict) -> dict:
-#     """
-#     Search for service anniversary celebrations based on criteria.
-#     args:
-#         {
-#             "type": "object",
-#             "properties": {
-#                 "query": {
-#                 "type": "object",
-#                 "properties": {
-#                     "search": {
-#                     "type": "object",
-#                     "properties": {
-#                         "by": { "type": "string", "enum": ["email", "name"] },
-#                         "identifier": { "type": "string" }
-#                     },
-#                     "required": ["by", "identifier"]
-#                     },
-#                     "filters": {
-#                     "type": "object",
-#                     "properties": {
-#                         "team": { "type": "string", "enum": ["my_team", "other_teams", "all"] },
-#                         "timePeriod": { "type": "string", "enum": ["future", "past"] },
-#                         "notBeforeDate": { "type": "string", "format": "date" },
-#                         "notAfterDate": { "type": "string", "format": "date" }
-#                     }
-#                     },
-#                     "pagination": {
-#                     "type": "object",
-#                     "properties": {
-#                         "limit": { "type": "integer" },
-#                         "cursor": { "type": "integer" }
-#                     }
-#                     }
-#                 }
-#                 }
-#             }
-#         }
-    
-#     """
-#     pagination = query.get("pagination", {})
-#     limit = int(pagination.get("limit", 5))
-#     cursor = int(pagination.get("cursor", 0))
-
-#     celebrations = [_mock_celebration(i + cursor + 1) for i in range(limit)]
-#     metadata = {"total": 100, "nextCursor": cursor + limit}
-
-#     return {"celebrations": celebrations, "metadata": metadata}
-
+# ============================================================
+# TOOL 1: SEARCH CELEBRATIONS
+# ============================================================
 @mcp.tool(
-    name="get_full_name", description="""
-    Get the full name of a person given their first and last names.
-    args:
-        first_name (str): The first name of the person.
-        last_name (str): The last name of the person.
-        returns:
-        str: The full name of the person in the format "First Last".
-    example:
-        Input:
-        first_name: "John"
-        last_name: "Doe"
-        Output:
-        "John Doe"
-    """)
-def get_full_name(first_name: str, last_name: str) -> str:
-    return f"{first_name} {last_name}"
+    name="search_celebrations",
+    description="Search for past or upcoming service anniversary celebrations."
+)
+def search_celebrations(
+    #searchProperty: Literal["name", "email"] = "name",
+    #searchQuery: str = "",
+    team: Literal["my_team", "other_teams", "all"] = "my_team",
+    timePeriod: Literal["future", "past"] = "future",
+    notBeforeDate: str = "",
+    notAfterDate: str = ""
+) -> Dict[str, Any]:
 
-@mcp.tool()    
-def get_personal_details(first_name: str, last_name: str, email_address: str, company_name: str ) -> dict:
-    """
-    Get the personal details of a person given their first and last names, email address and company name.
-          args: 
-          first_name (str): The first name of the person.
-          last_name (str): The last name of the person.
-          email_address (str): The email address of the person.
-          returns:
-          dict: A dictionary containing the personal details of the person.
-              {
-                  "firstName": "string",
-                  "lastName": "string",
-                  "emailAddress": "string",
-                  "fullName": "string",
-                    "company_name": "string"
-              }
-          example:
-              Input:
-              first_name: "John"
-              last_name: "Doe"
-              email_address: "john.doe@example.com"
-            company_name: "example.Inc"
-                Output:
-                {
-                    "firstName": "John",
-                    "lastName": "Doe",
-                    "emailAddress": "john.doe@exampl.com",
-                    "fullName": "John Doe",
-                    "company_name": "example.Inc"
-                }
-    """
-    full_name = get_full_name(first_name, last_name)
+    data = load_mock("20251107-mock-data-search_celebrations.json")
+    celebrations = data["celebrations"]
+
+    summary = f"{len(celebrations)} celebrations found."
+
     return {
-        "firstName": first_name,
-        "lastName": last_name,
-        "emailAddress": email_address,
-        "fullName": full_name,
-        "company_name": company_name
-    }   
+        "summary": summary,
+        "celebrations": celebrations,
+        "metadata": {"totalCelebrations": len(celebrations)}
+    }
 
+
+# ============================================================
+# TOOL 2: CELEBRATION CONTRIBUTIONS
+# ============================================================
 @mcp.tool(
     name="celebration_contributions",
-    description="""
-    Retrieve comments and replies contributed to a specific celebration.
-
-    args:
-        query (dict): {
-            "celebrationId": "uuid",
-            "cursor": "uuid"
-        }
-
-    returns:
-        dict: {
-            "celebration": {...},
-            "comments": [...],
-            "metadata": {"totalComments": int, "nextCursor": "uuid"}
-        }
-
-    example:
-        Input:
-        {
-            "celebrationId": "123e4567-e89b-12d3-a456-426614174000",
-            "cursor": "00000000-0000-0000-0000-000000000000"
-        }
-
-        Output:
-        {
-            "celebration": {...},
-            "comments": [...],
-            "metadata": {"totalComments": 1, "nextCursor": "uuid"}
-        }
-    """
+    description="Retrieve all comments and replies for a given celebration."
 )
-def celebration_contributions(query: dict) -> dict:
-    celebration = _mock_celebration(1)
-    contributor = {
-        "rosterPersonId": str(uuid.uuid4()),
-        "firstName": "John",
-        "lastName": "Doe",
-        "emailAddress": "john.doe@example.com",
-        "avatarUrl": "https://example.com/john.png",
-        "jobTitle": "Engineer",
-        "isCurrentUser": False
+def celebration_contributions(
+    celebrationId: str
+) -> Dict[str, Any]:
+
+    data = load_mock("20251107-mock-data-celebration_contributions.json")
+
+    # Ensure correct ID
+    data["celebration"]["celebrationId"] = celebrationId
+
+    return {
+        "celebration": data["celebration"],
+        "comments": data["comments"],
+        "metadata": {"totalComments": len(data["comments"])}
     }
-    replies = [{
-        "commentId": str(uuid.uuid4()),
-        "isPrivate": False,
-        "totalLikes": 1,
-        "comment": "Nice work!",
-        "contributor": contributor,
-        "replies": []
-    }]
-    comments = [{
-        "commentId": str(uuid.uuid4()),
-        "isPrivate": False,
-        "totalLikes": 5,
-        "comment": "Congratulations on your milestone!",
-        "contributor": contributor,
-        "replies": replies
-    }]
-    metadata = {"totalComments": len(comments), "nextCursor": str(uuid.uuid4())}
-
-    return {"celebration": celebration, "comments": comments, "metadata": metadata}
 
 
+# ============================================================
+# TOOL 3: COMMENT
+# ============================================================
 @mcp.tool(
     name="comment",
-    description="""
-    Add or reply to a comment on a celebration.
-
-    args:
-        query (dict): {
-            "celebrationId": "uuid",
-            "commentId": "uuid",
-            "comment": "string",
-            "isPrivate": bool
-        }
-
-    returns:
-        dict: {
-            "celebration": {...},
-            "comment": {...}
-        }
-
-    example:
-        Input:
-        {
-            "celebrationId": "123e4567-e89b-12d3-a456-426614174000",
-            "commentId": "11111111-2222-3333-4444-555555555555",
-            "comment": "Congratulations!",
-            "isPrivate": false
-        }
-
-        Output:
-        {
-            "celebration": {...},
-            "comment": {
-                "commentId": "uuid",
-                "isPrivate": false,
-                "totalLikes": 0,
-                "comment": "Congratulations!",
-                "contributor": {...}
-            }
-        }
-    """
+    description="Add a comment to a celebration."
 )
-def comment(query: dict) -> dict:
-    celebration = _mock_celebration(1)
-    contributor = {
-        "rosterPersonId": str(uuid.uuid4()),
-        "firstName": "Madan",
-        "lastName": "Shetty",
-        "emailAddress": "madan.shetty@example.com",
-        "avatarUrl": "https://example.com/avatar_madan.png",
-        "jobTitle": "Software Engineer",
-        "isCurrentUser": True
-    }
-    new_comment = {
-        "commentId": str(uuid.uuid4()),
-        "isPrivate": query.get("isPrivate", False),
-        "totalLikes": 0,
-        "comment": query.get("comment", ""),
-        "contributor": contributor
+def comment_tool(
+    celebrationId: str,
+    comment: str,
+    isPrivate: bool = False
+) -> Dict[str, Any]:
+
+    data = load_mock("20251107-mock-data-comment.json")
+
+    data["celebration"]["celebrationId"] = celebrationId
+    data["comment"]["comment"] = comment
+    data["comment"]["isPrivate"] = isPrivate
+
+    return {
+        "celebration": data["celebration"],
+        "comment": data["comment"]
     }
 
-    return {"celebration": celebration, "comment": new_comment}
 
+# ============================================================
+# TOOL 4: FIND INVITEES
+# ============================================================
+@mcp.tool(
+    name="find_invitees",
+    description="Search for internal people to invite to a celebration."
+)
+
+def find_invitees(
+    searchProperty: Literal["name", "email"] = "name",
+    searchQuery: str = ""
+) -> Dict[str, Any]:
+    data = load_mock("20251107-mock-data-find_invitees.json")
+    people = data["people"]
+
+    if searchProperty == "name":
+        name = searchQuery.lower()
+        person = [p for p in people if name in p["firstName"].lower() or name in p["lastName"].lower()]
+        return {
+            "people": person,
+            "metadata": {"totalResults": len(person)}
+        }
+
+    elif searchProperty == "email":
+        email = searchQuery.lower()
+        person = [p for p in people if email in p["emailAddress"].lower()]
+        return {
+            "people": person,
+            "metadata": {"totalResults": len(person)}
+        }
+
+
+    # return {
+    #     "people": data["people"],
+    #     "metadata": {"totalResults": len(data["people"])}
+    # }
+
+
+# ============================================================
+# TOOL 5: INVITE FOR CELEBRATION
+# ============================================================
 
 @mcp.tool(
     name="invite",
-    description="""
-    Invite contributors (internal or external) to a celebration.
-
-    args:
-        query (dict): {
-            "celebrationId": "uuid",
-            "byRosterPersonId": [{"rosterPersonId": "uuid"}],
-            "byEmailAddress": [{"emailAddress": "string", "firstName": "string", "lastName": "string"}]
-        }
-
-    returns:
-        dict: {
-            "celebration": {...},
-            "invitationSummary": {"invitesSent": int, "alreadyInvited": int},
-            "invitedContributors": [...],
-            "suggestedInvitees": [...]
-        }
-
-    example:
-        Input:
-        {
-            "celebrationId": "123e4567-e89b-12d3-a456-426614174000",
-            "byRosterPersonId": [{"rosterPersonId": "uuid"}],
-            "byEmailAddress": [{"emailAddress": "abc@example.com", "firstName": "Amit", "lastName": "Kumar"}]
-        }
-
-        Output:
-        {
-            "celebration": {...},
-            "invitationSummary": {"invitesSent": 2, "alreadyInvited": 1},
-            "invitedContributors": [...],
-            "suggestedInvitees": [...]
-        }
-    """
+    description="Invite a person to a celebration."
 )
-def invite(query: dict) -> dict:
-    celebration = _mock_celebration(1)
-    summary = {"invitesSent": 2, "alreadyInvited": 1}
-    invited_contributors = [
-        {"emailAddress": "jane.doe@example.com", "firstName": "Jane", "lastName": "Doe"},
-        {"emailAddress": "john.smith@example.com", "firstName": "John", "lastName": "Smith"}
-    ]
-    suggested_invitees = [
-        {"rosterPersonId": str(uuid.uuid4()), "firstName": "Amit", "lastName": "Kumar"},
-        {"rosterPersonId": str(uuid.uuid4()), "firstName": "Priya", "lastName": "Sharma"}
-    ]
-    return {
-        "celebration": celebration,
-        "invitationSummary": summary,
-        "invitedContributors": invited_contributors,
-        "suggestedInvitees": suggested_invitees
+def invite(
+    celebrationId: str,
+    emailAddress: str
+) -> Dict[str, Any]:
+
+    data = load_mock("20251107-mock-data-invite.json")
+
+    data["celebration"]["celebrationId"] = celebrationId
+    data["celebration"]["emailAddress"] = emailAddress
+
+    return{
+        "celebration": data["celebration"],
+        "metadata":  {"totalResults": len(data["celebration"])}
     }
 
 
 @mcp.tool(
-    name="find_invitees",
-    description="""
-    Search for internal people to invite to a celebration.
-
-    args:
-        query (dict): {
-            "search": {"by": "name"|"email", "query": "string"},
-            "celebrationId": "uuid"
-        }
-
-    returns:
-        dict: {
-            "people": [...],
-            "metadata": {"totalResults": int}
-        }
-
-    example:
-        Input:
-        {
-            "search": {"by": "name", "query": "John"},
-            "celebrationId": "123e4567-e89b-12d3-a456-426614174000"
-        }
-
-        Output:
-        {
-            "people": [...],
-            "metadata": {"totalResults": 5}
-        }
-    """
+    name="add_numbers",
+    description="To add two numbers"
 )
-def find_invitees(query: dict) -> dict:
-    search_data = query.get("search", {})
-    query_str = search_data.get("query", "")
-    people = _mock_person_search(query_str, 5)
-    metadata = {"totalResults": len(people)}
-    return {"people": people, "metadata": metadata}
+async def add_numbers(a: float, b: float, ctx: Context) -> float:
+    """Add two numbers."""
+    # Access headers via dependency function
+    headers = get_http_headers()
+    await ctx.debug("Incoming headers for 'add':", extra={"headers": dict(headers)})  # Log as dict for cleaner output
 
+    # Extract access token
+    token = headers.get("authorization", "")
+    if token:
+        await ctx.info("Access token received", extra={"auth_preview": token[:20] + "..." if len(token) > 20 else token})
+    else:
+        await ctx.warning("No access token provided in headers")
+
+    result = a + b
+    await ctx.info(f"Computed: {a} + {b} = {result}")
+    return result
 
 # ===================================================
 # RUN SERVER
 # ===================================================
 if __name__ == "__main__":
-    mcp.run(transport="streamable-http", host="127.0.0.1", port=8080)
-    #mcp.run()  # for local testing
-    #mcp.run(transport="http", host="127.0.0.1", port=8000)
+    #mcp.run()
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=8080)
