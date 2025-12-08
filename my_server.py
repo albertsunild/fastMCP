@@ -73,13 +73,15 @@ def load_mock(filename: str) -> Dict[str, Any]:
     description="Search for past or upcoming service anniversary celebrations."
 )
 def search_celebrations(
-    #searchProperty: Literal["name", "email"] = "name",
-    #searchQuery: str = "",
-    team: Literal["my_team", "other_teams", "all"] = "my_team",
-    timePeriod: Literal["future", "past"] = "future",
-    notBeforeDate: str = "",
-    notAfterDate: str = ""
-) -> Dict[str, Any]:
+    notBeforeDate: Annotated[datetime | None, Field(description="Do not include celebrations with a date before this value")],
+    notAfterDate: Annotated[datetime | None, Field(description="Do not include celebrations with a date after this value")],
+    searchQuery: Annotated[
+        Optional[Annotated[str, StringConstraints(min_length=2, strict=True)]],
+        Field(description="String to search for in the search property")] = None,
+    searchProperty: Annotated[Literal["name", "email"], Field(description="Property to search by")] = "name",
+    team: Annotated[Literal["my_team", "other_teams", "all"], Field(description="Only show results for individuals that fit this team segmentation")] = "my_team",
+    timePeriod: Annotated[Literal["future", "past"], Field(description="Only show results that occurred in either the future or the past")] = "future"
+    ) -> Dict[str, Any]:
 
     data = load_mock("20251107-mock-data-search_celebrations.json")
     celebrations = data["celebrations"]
