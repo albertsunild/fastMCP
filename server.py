@@ -7,23 +7,6 @@ import logging
 from fastmcp.server.auth.providers.jwt import JWTVerifier
 
 
-# Enable detailed logging
-logging.basicConfig(level=logging.DEBUG)
-log = logging.getLogger("fastmcp.server.context.to_client")
-log.setLevel(logging.DEBUG)
-
-
-OKTA_ISSUER = os.getenv("OIDC_ISSUER", "https://trial-9445494.okta.com/oauth2/default")
-OKTA_AUDIENCE = os.getenv("OIDC_AUDIENCE", "api://default")
-
-auth = JWTVerifier(
-    jwks_uri=f"{OKTA_ISSUER}/v1/keys",     # Okta JWKS endpoint
-    issuer=OKTA_ISSUER,                    # Must match the 'iss' in your token
-    audience=OKTA_AUDIENCE,                # Must match 'aud' claim in your token
-    algorithm="RS256",                      # Okta uses RS256 by default
-    required_scopes= ["mcp.read", "mcp.write"]
-)
-
 # ============================================================
 # MCP Server Setup
 # ============================================================
@@ -219,27 +202,6 @@ def invite(
         "metadata":  {"totalResults": len(data["celebration"])}
     }
 
-
-@mcp.tool(
-    name="add_numbers",
-    description="To add two numbers"
-)
-async def add_numbers(a: float, b: float, ctx: Context) -> float:
-    """Add two numbers."""
-    # Access headers via dependency function
-    headers = get_http_headers()
-    await ctx.debug("Incoming headers for 'add':", extra={"headers": dict(headers)})  # Log as dict for cleaner output
-
-    # Extract access token
-    token = headers.get("authorization", "")
-    if token:
-        await ctx.info("Access token received", extra={"auth_preview": token[:20] + "..." if len(token) > 20 else token})
-    else:
-        await ctx.warning("No access token provided in headers")
-
-    result = a + b
-    await ctx.info(f"Computed: {a} + {b} = {result}")
-    return result
 
 # ===================================================
 # RUN SERVER
