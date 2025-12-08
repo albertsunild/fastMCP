@@ -1,0 +1,164 @@
+{
+  "people": [
+    {
+      "firstName": "Alex",
+      "lastName": "Smith",
+      "emailAddress": "alex.smith@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_17b07ce8-6d7c-4cf6-a90b-9c0127e424a0",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Jordan",
+      "lastName": "Johnson",
+      "emailAddress": "jordan.johnson@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_ebb4a804-2f15-4be5-9007-9b9e0a675c69",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Taylor",
+      "lastName": "Williams",
+      "emailAddress": "taylor.williams@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_6c14531d-d957-47da-8a56-6ecdd7b7f6f1",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Morgan",
+      "lastName": "Brown",
+      "emailAddress": "morgan.brown@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_beca4d38-5ea7-4990-91ce-df13eadb4552",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Casey",
+      "lastName": "Jones",
+      "emailAddress": "casey.jones@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_adb58a57-30de-4415-a6dc-b4f40b7c8ee4",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Riley",
+      "lastName": "Garcia",
+      "emailAddress": "riley.garcia@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_1733a2f2-9f2b-4d69-9838-910f34833f9d",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Jamie",
+      "lastName": "Miller",
+      "emailAddress": "jamie.miller@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_91d056cc-8b32-4bb3-adda-5da47ab9930f",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Drew",
+      "lastName": "Davis",
+      "emailAddress": "drew.davis@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_cd902190-6d95-4a12-b739-79be5919b30d",
+      "jobTitle": "Team Member",
+      "isCurrentUser": true
+    },
+    {
+      "firstName": "Quinn",
+      "lastName": "Rodriguez",
+      "emailAddress": "quinn.rodriguez@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_05940f96-a560-47a6-9379-fbb88a4ef99d",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Avery",
+      "lastName": "Martinez",
+      "emailAddress": "avery.martinez@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_55c7dac0-2a52-421e-acc9-a63d093fb3dc",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Peyton",
+      "lastName": "Hernandez",
+      "emailAddress": "peyton.hernandez@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_0c7ae4d7-da17-40c2-bfb3-8959bdd51d06",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Reese",
+      "lastName": "Lopez",
+      "emailAddress": "reese.lopez@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_33bd1f1e-4744-49fd-b698-fee9862efacb",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Skyler",
+      "lastName": "Gonzalez",
+      "emailAddress": "skyler.gonzalez@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_6fc5ebad-57cb-494f-b6f7-1836f291b3f1",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Rowan",
+      "lastName": "Wilson",
+      "emailAddress": "rowan.wilson@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_547dd5ba-32b8-4260-af61-88c97cf36460",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Emerson",
+      "lastName": "Anderson",
+      "emailAddress": "emerson.anderson@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_d37582d5-fbb1-440a-8c5e-41f6fefabbb9",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Finley",
+      "lastName": "Thomas",
+      "emailAddress": "finley.thomas@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_b3f7414e-5418-450e-aa32-d2b97ea2df41",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Harper",
+      "lastName": "Taylor",
+      "emailAddress": "harper.taylor@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_d81cc6f4-3014-4afd-a7b9-1a0a1ef2149b",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Kendall",
+      "lastName": "Moore",
+      "emailAddress": "kendall.moore@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_ddb7bd55-e7f7-4edf-ba01-e779187b7ce3",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Logan",
+      "lastName": "Jackson",
+      "emailAddress": "logan.jackson@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_c207484e-0c36-4f2c-ba30-960acbdb9e5e",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    },
+    {
+      "firstName": "Blake",
+      "lastName": "Martin",
+      "emailAddress": "blake.martin@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762533844_f41c1a21-934a-444a-8831-b8e7586b794d",
+      "jobTitle": "Team Member",
+      "isCurrentUser": false
+    }
+  ]
+}

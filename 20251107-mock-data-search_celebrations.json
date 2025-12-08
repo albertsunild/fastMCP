@@ -1,0 +1,2204 @@
+{
+  "celebrations": [
+    {
+      "celebrationId": "a142ed58-8350-41d8-8c84-30be61771c3f",
+      "milestoneName": "Project Completion",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 23,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 44
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "f8c2f1c8-2ce3-4710-96e7-f65b77d89954",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_6505623599283_754b6569-71e9-4782-ae6f-39c03bf3f22a",
+      "totalInvites": 34,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "I couldn\u2019t have reached this milestone without your support.",
+        "totalLikes": 48
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Brown",
+        "emailAddress": "Morgan.Brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_6505623599283_754b6569-71e9-4782-ae6f-39c03bf3f22a",
+        "jobTitle": "Software Engineer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "f80a4a6d-b318-406a-87c2-1e328ffa7dfa",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_8426599034341_267b6fea-36d5-41d8-8c89-5e5377f4af15",
+      "totalInvites": 32,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 32
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Brown",
+        "emailAddress": "Morgan.Brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_8426599034341_267b6fea-36d5-41d8-8c89-5e5377f4af15",
+        "jobTitle": "Team Lead",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "a04de04e-6886-4bac-b123-f28bf446c9f7",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_7525430584585_3141404c-734d-4db4-9451-58f25035b349",
+      "totalInvites": 24,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your encouragement has made this journey unforgettable.",
+        "totalLikes": 46
+      },
+      "celebrator": {
+        "firstName": "Casey",
+        "lastName": "Patel",
+        "emailAddress": "Casey.Patel@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_7525430584585_3141404c-734d-4db4-9451-58f25035b349",
+        "jobTitle": "Data Analyst",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e41e7a45-27af-4d5e-86d9-c0d645f9e866",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_4687939204849_5bfd415b-553c-4963-8f6e-44b5e6affdcc",
+      "totalInvites": 35,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Your encouragement has made this journey unforgettable.",
+        "totalLikes": 99
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_4687939204849_5bfd415b-553c-4963-8f6e-44b5e6affdcc",
+        "jobTitle": "Data Analyst",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e33510dc-1aaa-4a1f-a260-8bbeb285958b",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_4337637745125_81f05010-8cfd-4d9c-b4f8-94668adccf98",
+      "totalInvites": 13,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "I appreciate every one of you who made this possible.",
+        "totalLikes": 58
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Brown",
+        "emailAddress": "Morgan.Brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_4337637745125_81f05010-8cfd-4d9c-b4f8-94668adccf98",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "7cb7e181-3abd-49dd-9c07-f643f5b2d886",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_3982261028218_b8231441-6cf4-4791-a150-bd416b00ee0b",
+      "totalInvites": 26,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your kind messages have touched my heart\u2014thank you!",
+        "totalLikes": 61
+      },
+      "celebrator": {
+        "firstName": "Casey",
+        "lastName": "Smith",
+        "emailAddress": "Casey.Smith@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_3982261028218_b8231441-6cf4-4791-a150-bd416b00ee0b",
+        "jobTitle": "Team Lead",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "04902064-49c4-4fb9-acc6-d00ac1a93ce5",
+      "milestoneName": "Project Completion",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_8386610120239_e7d95b0c-8a41-4fd5-8659-cfc649766c0c",
+      "totalInvites": 46,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 8
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Smith",
+        "emailAddress": "Jordan.Smith@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_8386610120239_e7d95b0c-8a41-4fd5-8659-cfc649766c0c",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "d263dcf8-3d76-437c-b885-2ee7974a37a0",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_8763073053319_6c2f80aa-785b-4c41-8157-91a2c2eba077",
+      "totalInvites": 15,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 96
+      },
+      "celebrator": {
+        "firstName": "Taylor",
+        "lastName": "Lee",
+        "emailAddress": "Taylor.Lee@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_8763073053319_6c2f80aa-785b-4c41-8157-91a2c2eba077",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "292e55e4-262f-4e09-a181-c5118f6a13a5",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_7761821254067_9fae10c1-992d-4846-94ac-021926683e0f",
+      "totalInvites": 45,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your kind messages have touched my heart\u2014thank you!",
+        "totalLikes": 8
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Garcia",
+        "emailAddress": "Morgan.Garcia@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_7761821254067_9fae10c1-992d-4846-94ac-021926683e0f",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "1c55934f-de6e-4001-adf3-379ab40a2bfb",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_9121742979836_62ac11de-6848-4cd0-87a3-05850ecc8fbc",
+      "totalInvites": 40,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your kind messages have touched my heart\u2014thank you!",
+        "totalLikes": 43
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Patel",
+        "emailAddress": "Morgan.Patel@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_9121742979836_62ac11de-6848-4cd0-87a3-05850ecc8fbc",
+        "jobTitle": "Data Analyst",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "c30abdf7-9d03-4c95-a6de-32b66c374f69",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_7903683271509_2b87f50a-45c4-4e96-b102-b185491daf0d",
+      "totalInvites": 48,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your kind messages have touched my heart\u2014thank you!",
+        "totalLikes": 94
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Lee",
+        "emailAddress": "jordan.Lee@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_7903683271509_2b87f50a-45c4-4e96-b102-b185491daf0d",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "8b4cec56-e85f-4f09-990a-e86e2976cd70",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_4430815872462_1d803f91-5323-41e0-b5a7-70abe62aa600",
+      "totalInvites": 36,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 4
+      },
+      "celebrator": {
+        "firstName": "Alex",
+        "lastName": "Smith",
+        "emailAddress": "Alex.Smith@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_4430815872462_1d803f91-5323-41e0-b5a7-70abe62aa600",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "b5ed1384-3233-41c9-b0a9-6f8936b2fe98",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_4216903081980_c8d45490-12f6-44e2-b78a-4e804d4017f2",
+      "totalInvites": 30,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 48
+      },
+      "celebrator": {
+        "firstName": "Casey",
+        "lastName": "Smith",
+        "emailAddress": "Casey.Smith@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_4216903081980_c8d45490-12f6-44e2-b78a-4e804d4017f2",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "8cc7f22a-db01-4a74-8877-9b716cc45072",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_5782302803782_f9ecfa29-5356-45bc-af97-38df0a773e0b",
+      "totalInvites": 44,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "I appreciate every one of you who made this possible.",
+        "totalLikes": 61
+      },
+      "celebrator": {
+        "firstName": "Casey",
+        "lastName": "Garcia",
+        "emailAddress": "Casey.Garcia@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_5782302803782_f9ecfa29-5356-45bc-af97-38df0a773e0b",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "38421ff4-889d-445c-8d6d-ad04657e8343",
+      "milestoneName": "Innovation Award",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_6542818456352_9540b78f-dcb6-4048-bbed-21cb66371d69",
+      "totalInvites": 26,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Grateful for the journey and the people who made it worthwhile.",
+        "totalLikes": 0
+      },
+      "celebrator": {
+        "firstName": "Alex",
+        "lastName": "Patel",
+        "emailAddress": "Alex.Patel@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_6542818456352_9540b78f-dcb6-4048-bbed-21cb66371d69",
+        "jobTitle": "Data Analyst",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "ce16e2af-4ae5-4d09-8cdf-f047e346a105",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_5353803836322_a21265fa-67aa-4c96-9bf2-c2431502437c",
+      "totalInvites": 49,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "This milestone means a lot to me\u2014thank you for being part of it!",
+        "totalLikes": 53
+      },
+      "celebrator": {
+        "firstName": "Taylor",
+        "lastName": "Patel",
+        "emailAddress": "Taylor.Patel@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_5353803836322_a21265fa-67aa-4c96-9bf2-c2431502437c",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "ed90057e-4d19-4def-b0f6-047ddd14d35c",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_4468978094422_93c68a80-8e26-4b26-8acc-f0001cadb2c3",
+      "totalInvites": 48,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your encouragement has made this journey unforgettable.",
+        "totalLikes": 61
+      },
+      "celebrator": {
+        "firstName": "Alex",
+        "lastName": "Lee",
+        "emailAddress": "Alex.Lee@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_4468978094422_93c68a80-8e26-4b26-8acc-f0001cadb2c3",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "66ffdc06-36ba-470e-a2b2-8ea47f67bd96",
+      "milestoneName": "Innovation Award",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1416440026278_2ac721b2-12c3-4965-b4f5-bc27916b35be",
+      "totalInvites": 42,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Grateful for the journey and the people who made it worthwhile.",
+        "totalLikes": 84
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1416440026278_2ac721b2-12c3-4965-b4f5-bc27916b35be",
+        "jobTitle": "Team Lead",
+        "isInMyTeam": false
+      }
+    },
+    {
+      "celebrationId": "3766df45-d255-44e9-a318-644a10aa16a1",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2025-11-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_6039035928918_a8cc6990-d50e-4a46-b627-71bca262025d",
+      "totalInvites": 38,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 61
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Lee",
+        "emailAddress": "jordan.Lee@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_6039035928918_a8cc6990-d50e-4a46-b627-71bca262025d",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "cd314bc4-a9ec-4cfb-8c06-2e6a997e8478",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-01-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 10,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 5
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "1679b290-f308-487b-8387-6f50dd6db2a9",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-01-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 11,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 6
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "8c60006f-788a-41de-b4c3-0ef6c351a718",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-01-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 12,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 7
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "4d7bd3ac-0c28-4b30-a0de-f3a621bb071b",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-01-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 13,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 8
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "2768562f-fc4c-4a6e-8258-fbdceaf8710f",
+      "milestoneName": "Innovation Award",
+      "date": "2026-01-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 14,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 9
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "6ec70900-cf46-4357-af2d-fb16cb8678ed",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-01-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 15,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 10
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "f3224930-2085-443b-9d72-f83623b2524c",
+      "milestoneName": "Project Completion",
+      "date": "2026-01-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 16,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 11
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "c8c08d73-2e7e-4931-951f-cdd8fac3cd69",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-01-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 17,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 12
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "ee5727fc-5d7a-467a-9609-900b0ae03fa4",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-01-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 18,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 13
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "ac9f04e9-c2e3-43a3-a945-c9cf6db35ea1",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-01-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 19,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 14
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "6d4af85a-7b97-4eff-a556-7f1a00adb23b",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-02-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 20,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 15
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "3eb010de-8d4a-41fe-bf51-12b5a346df51",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-02-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 21,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 16
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "12731a6d-5ca2-4192-83b9-b12acb3e6b69",
+      "milestoneName": "Innovation Award",
+      "date": "2026-02-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 22,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 17
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "26568d64-63e9-4644-8390-5861418b24fd",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-02-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 23,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 18
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e49ef459-7cc8-4e22-a69c-4eecb25379bf",
+      "milestoneName": "Project Completion",
+      "date": "2026-02-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 24,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 19
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "a3471ec2-4554-4c7b-9af8-cfa3b8f78680",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-02-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 25,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 20
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "961752ba-ac78-4876-a15d-663dcd04b598",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-02-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 26,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 21
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "97295a1f-bf76-4e50-ba9b-9020eb7aae38",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-02-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 27,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 22
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "dd556549-1a16-4ee3-a16e-90d42c3ed885",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-02-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 28,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 23
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "492d5471-4a8d-48c0-a428-2e27601a0ee6",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-02-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 29,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 24
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "6d83b80c-7b6e-4559-ac31-53d5e6066987",
+      "milestoneName": "Innovation Award",
+      "date": "2026-03-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 30,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 25
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "9079a61d-64c1-4bfb-9b77-5718e8935825",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-03-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 31,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 26
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "732a0d57-abcc-43dd-9505-3446dc7d9917",
+      "milestoneName": "Project Completion",
+      "date": "2026-03-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 32,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 27
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "b5142cb8-54e8-48ba-898f-2264b924f922",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-03-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 33,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 28
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "c305f7c7-0e10-463c-81a8-c29925adcedf",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-03-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 34,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 29
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "2340e7ed-075c-4390-a14b-e131af0acebc",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-03-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 35,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 30
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "b17256ee-d02c-406a-a4c6-fe28d5797be5",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-03-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 36,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 31
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "06b22399-1466-4c4e-b2f1-1bdc20037f89",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-03-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 37,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 32
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "efdd33c4-b881-44f8-9ed7-278801fe2b1b",
+      "milestoneName": "Innovation Award",
+      "date": "2026-03-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 38,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 33
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "d4c5bf1c-a746-4096-9373-eda48457a198",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-03-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 39,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 34
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "df7a48d3-c2e4-4763-8552-7f0d81540d4c",
+      "milestoneName": "Project Completion",
+      "date": "2026-04-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 40,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 35
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "cca05a54-4eee-4e8c-a932-2fd76d63f6dd",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-04-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 41,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 36
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "3829ea75-a90b-4a7f-ac58-3d047f43fbb7",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-04-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 42,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 37
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e7ea4654-90fb-4484-84d3-c446da16b28a",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-04-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 43,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 38
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "4dc2ddd9-21e6-4214-99cf-374921ccd41b",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-04-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 44,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 39
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "c94fec10-03d5-4732-9720-c965cf4f476a",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-04-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 45,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 40
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "f5ac31b7-9259-4575-90e3-2ac529b1a78f",
+      "milestoneName": "Innovation Award",
+      "date": "2026-04-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 46,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 41
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "ed1eeaca-7985-4221-b2e5-feeada506458",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-04-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 47,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 42
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "68d54f2e-885b-43cf-ae10-1afc3f388cd4",
+      "milestoneName": "Project Completion",
+      "date": "2026-04-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 48,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 43
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "da06ef85-8a54-467c-8fa2-4a8103a6c5fb",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-04-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 49,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 44
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "aa9e73e5-e896-488b-b4c6-e6d237c98b77",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-05-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 50,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 45
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "90acc4dc-5cac-4094-a00a-9bac863f8fc1",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-05-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 10,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 46
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "9d99a6e6-812e-4378-b9f3-330fe237bd24",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-05-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 11,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 47
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e417628a-d559-4276-9f23-7375a18b3811",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-05-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 12,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 48
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "009e38aa-bcc5-44df-b722-358783d155c4",
+      "milestoneName": "Innovation Award",
+      "date": "2026-05-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 13,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 49
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "2fcafd12-9e9b-42ba-8b57-2a6064c8cfdb",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-05-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 14,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 50
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "0d033fa2-8bf5-4811-b689-49b2813abb9f",
+      "milestoneName": "Project Completion",
+      "date": "2026-05-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 15,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 51
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "1026d620-7ec3-43b2-ad52-170264b22ded",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-05-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 16,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 52
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "25f81118-4c58-4381-acc7-4c69d075626e",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-05-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 17,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 53
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "2a41bcfe-1697-43cb-8402-2bf5e4b91bff",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-05-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 18,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 54
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e75dbc0e-2584-4a2d-9ee5-98eadea80e1d",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-06-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 19,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 55
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "0f9d70a2-a1ac-49b1-b309-fed9c4c8f7bb",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-06-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 20,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 56
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "52a39e93-dfac-45ba-ae52-14961e01e8f2",
+      "milestoneName": "Innovation Award",
+      "date": "2026-06-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 21,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 57
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "af8cfff8-3ccc-4621-b9ab-f5cd136f3387",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-06-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 22,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 58
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "e7b8c81d-722d-4ab8-a159-15457715abea",
+      "milestoneName": "Project Completion",
+      "date": "2026-06-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 23,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 59
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "fdaea132-81ee-4b36-a3dc-427b52368b12",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-06-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 24,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 60
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "46fd2906-ec3a-4727-a7d5-319f1a3819d2",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-06-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 25,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 61
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "99268264-5325-4fec-83bd-d144a9408d5b",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-06-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 26,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 62
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "25215adb-55da-4e21-aabe-381397064140",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-06-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 27,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 63
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "c4ab6c96-29ed-4949-ac28-dbd5261e3a81",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-06-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 28,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 64
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "dbeb0320-7125-4e92-ae99-0604a32df31d",
+      "milestoneName": "Innovation Award",
+      "date": "2026-07-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 29,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 65
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "a5f713d4-beae-4d71-86d2-af1b84c73ca3",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-07-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 30,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 66
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "10f71076-10eb-4d63-a365-2cddc54789cc",
+      "milestoneName": "Project Completion",
+      "date": "2026-07-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 31,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 67
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "aaf4e495-18c1-4c60-8626-44a21ae6cd03",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-07-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 32,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 68
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "796a00ec-eae1-48e2-9e3c-b9df48a67272",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-07-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 33,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 69
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "4ee06710-45b2-467c-9b53-f177880ee008",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-07-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 34,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 70
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "357b7aa0-3ca7-4152-8be6-9f9199a13ba5",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-07-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 35,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 71
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "bb9355d4-49c3-4599-8b6a-b048449c2391",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-07-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 36,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 72
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "0b206487-6a0a-4d34-813c-130120f8944f",
+      "milestoneName": "Innovation Award",
+      "date": "2026-07-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 37,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 73
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "0cd88f38-60bb-437f-9195-63039e97d93b",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-07-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 38,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 74
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "cebe2573-9d0b-4db5-8dfc-63f5f9c43265",
+      "milestoneName": "Project Completion",
+      "date": "2026-08-03T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 39,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 75
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "7cc0f604-a45e-4991-a9f8-3a43fc66e41c",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-08-07T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 40,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 76
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "77951596-d51b-49ba-ae36-9a830c21daef",
+      "milestoneName": "5-Year Work Anniversary",
+      "date": "2026-08-10T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 41,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 77
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "d2f15123-7531-4ec2-a956-d96ca9efe1af",
+      "milestoneName": "10-Year Work Anniversary",
+      "date": "2026-08-14T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 42,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 78
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "1c449371-928f-497c-901e-7d8903311d92",
+      "milestoneName": "Promotion to Senior Role",
+      "date": "2026-08-17T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 43,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 79
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "70e42bcf-b3c6-4f99-a654-771a00f02897",
+      "milestoneName": "Promotion to Lead Role",
+      "date": "2026-08-20T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 44,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 80
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "0c11a5ec-5784-413f-8f26-4d52fc37908d",
+      "milestoneName": "Innovation Award",
+      "date": "2026-08-23T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 45,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 81
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "f0704eb2-4699-4a84-a96f-e7b8fd9b67c5",
+      "milestoneName": "Team Leadership Recognition",
+      "date": "2026-08-25T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 46,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 82
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "53da239f-388c-42f4-865a-3b53fe28e739",
+      "milestoneName": "Project Completion",
+      "date": "2026-08-27T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 47,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 83
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    },
+    {
+      "celebrationId": "8f2d91ed-1971-48a0-bb21-6eae91518af4",
+      "milestoneName": "Customer Excellence Award",
+      "date": "2026-08-30T09:00:00Z",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+      "totalInvites": 48,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Thanks for being part of this celebration\u2014it means the world to me.",
+        "totalLikes": 84
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Brown",
+        "emailAddress": "jordan.brown@biworldwide.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1689093859005_3962601e-81fc-4905-8c7c-f72d0a34c514",
+        "jobTitle": "UX Designer",
+        "isInMyTeam": true
+      }
+    }
+  ]
+}

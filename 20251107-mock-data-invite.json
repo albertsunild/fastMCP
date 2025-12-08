@@ -1,0 +1,54 @@
+{
+  "celebration": {
+    "celebrationId": "d3f8c9a2-4b9e-4e2a-9b1e-2f3c9a1d4e5f",
+    "milestoneName": "5-Year Work Anniversary",
+    "date": "2025-11-15T10:00:00Z",
+    "imageUrl": "https://api.biw.cloud/v1/images/image_1584454705457_d87489eb-036f-4a2b-bc36-97c39587c5c3",
+    "totalInvites": 12,
+    "canContribute": true,
+    "hasContributed": false,
+    "allowPrivateComments": true,
+    "thankYouMessage": {
+      "comment": "Thank you all for the kind words and support over the years!",
+      "totalLikes": 8
+    },
+    "celebrator": {
+      "firstName": "Jordan",
+      "lastName": "Lee",
+      "emailAddress": "jordan.lee@biworldwide.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1584451110551_59d9782a-120c-4f3f-a955-4a7b117d17d8",
+      "jobTitle": "Senior Product Designer",
+      "isInMyTeam": true
+    }
+  },
+  "invitationSummary": {
+    "totalInvitesSent": 10,
+    "totalAlreadyInvited": 2,
+    "totalNotInvited": 0
+  },
+  "invitedContributors": [
+    {
+      "emailAddress": "alex.taylor@biworldwide.com",
+      "firstName": "Alex",
+      "lastName": "Taylor"
+    },
+    {
+      "emailAddress": "maria.garcia@biworldwide.com",
+      "firstName": "Maria",
+      "lastName": "Garcia"
+    }
+  ],
+  "notInvitedContributors": [],
+  "suggestedInvitees": [
+    {
+      "emailAddress": "sam.chen@biworldwide.com",
+      "firstName": "Sam",
+      "lastName": "Chen"
+    },
+    {
+      "emailAddress": "nina.patel@biworldwide.com",
+      "firstName": "Nina",
+      "lastName": "Patel"
+    }
+  ]
+}

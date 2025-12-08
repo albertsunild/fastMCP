@@ -1,0 +1,38 @@
+{
+  "celebration": {
+    "celebrationId": "44dc7554-a416-4f0a-b958-980e439d858a",
+    "milestoneName": "10-Year Anniversary",
+    "date": "2025-11-07T15:56:38.987749",
+    "imageUrl": "https://api.biw.cloud/v1/images/images_1653496621000_2266a16f-c859-4695-aaf4-fe18361847ca",
+    "totalInvites": 5,
+    "canContribute": true,
+    "hasContributed": false,
+    "allowPrivateComments": true,
+    "thankYouMessage": {
+      "comment": "I'm truly grateful for all the support and camaraderie over the years. Thank you!",
+      "totalLikes": 14
+    },
+    "celebrator": {
+      "firstName": "Jordan",
+      "lastName": "Smith",
+      "emailAddress": "jordan.smith@example.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1624475753000_326a145f-cac6-402d-8a45-87d95074a37a",
+      "jobTitle": "Senior Developer",
+      "isInMyTeam": true
+    }
+  },
+  "comment": {
+    "commentId": "4663d86f-c391-49cf-884e-94d2dcba989c",
+    "isPrivate": false,
+    "totalLikes": 7,
+    "comment": "Congratulations Jordan! Your dedication and leadership have made a real difference.",
+    "contributor": {
+      "firstName": "Taylor",
+      "lastName": "Lee",
+      "emailAddress": "taylor.lee@example.com",
+      "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1579997202000_d4f0397c-aaa1-4ada-858d-f5335b6cab63",
+      "jobTitle": "Project Manager",
+      "isCurrentUser": false
+    }
+  }
+}

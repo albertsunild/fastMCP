@@ -1,0 +1,3522 @@
+[
+  {
+    "celebration": {
+      "celebrationId": "41e3636a-6e61-420a-8e38-4fcae56654fb",
+      "milestoneName": "10-Year Anniversary",
+      "date": "2026-05-02T15:34:12.781221",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652781_290e417c-9c8e-4604-a087-e5ab0b62252b",
+      "totalInvites": 9,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Keep shining and reaching new heights!",
+        "totalLikes": 19
+      },
+      "celebrator": {
+        "firstName": "Avery",
+        "lastName": "Brown",
+        "emailAddress": "avery.brown@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652781_fce2b2f5-c3f0-4ffd-ac3c-6ebf2ad79862",
+        "jobTitle": "Software Engineer",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "772cda74-bfc4-4837-9f2e-c9f639c387d2",
+        "isPrivate": true,
+        "totalLikes": 21,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Davis",
+          "emailAddress": "drew.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652781_83b02968-427d-4780-be7a-6ba5d159734e",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "fce9e6be-6f6f-4564-af13-ed339b91a870",
+        "isPrivate": false,
+        "totalLikes": 28,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Smith",
+          "emailAddress": "morgan.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652781_827f63be-60d6-4901-9a82-9bdbe29712ff",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "344a3d11-8b87-42c6-84ad-bb13fcb0434a",
+        "isPrivate": false,
+        "totalLikes": 21,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Johnson",
+          "emailAddress": "avery.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_3a6af86e-1732-4f64-a2bb-c3cab64aba16",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "aa6852b5-334a-4f1d-88c4-072cad695385",
+        "isPrivate": true,
+        "totalLikes": 27,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Brown",
+          "emailAddress": "avery.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_8c9b46ba-38a7-4096-bfed-49f6c4210677",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "468d07fa-0b45-4f2e-bf43-b7e9befcb79c",
+        "isPrivate": false,
+        "totalLikes": 18,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Clark",
+          "emailAddress": "avery.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_5564958d-7df8-49d5-abb4-0d6ae6532ab8",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "6724c8a0-3f81-4a50-b42a-33a99029a223",
+        "isPrivate": true,
+        "totalLikes": 18,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Lopez",
+          "emailAddress": "drew.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_9f3ad896-5482-4bb4-8117-6bbbc82edde5",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "c4494c3c-67b8-46cc-873c-2b156800c017",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Johnson",
+          "emailAddress": "casey.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_cafd3a74-0def-4e9d-8bab-cc0b2dd46427",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "3dc45f56-5201-42b2-8d6b-ba70e09b4f47",
+        "isPrivate": false,
+        "totalLikes": 17,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Clark",
+          "emailAddress": "jamie.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_4c67c1e5-31ef-457b-8c41-691aa5db2d87",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "b276f26f-8dba-4f16-b423-780eae7bbebf",
+        "isPrivate": false,
+        "totalLikes": 24,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Lewis",
+          "emailAddress": "morgan.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_72c2227e-b67a-48cb-a8a1-d388dfe89be1",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "0a1e04ff-7cfc-4d26-a53c-a740b5659b64",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Johnson",
+          "emailAddress": "avery.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_928dcc46-c50d-4b6d-aeca-96cfabdf5e87",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "19363c55-d02a-4ba6-82e7-bddc1abf3bce",
+      "milestoneName": "4-Year Anniversary",
+      "date": "2026-03-20T15:34:12.782473",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652782_e962e7b0-776b-4031-8227-46f51e7cf798",
+      "totalInvites": 16,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Thanks for always bringing your best to the team.",
+        "totalLikes": 46
+      },
+      "celebrator": {
+        "firstName": "Taylor",
+        "lastName": "Martinez",
+        "emailAddress": "taylor.martinez@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_55559d55-3fd1-44b0-afa2-9167a9388128",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "c875fa69-ec33-4742-83df-55bed1c9418e",
+        "isPrivate": false,
+        "totalLikes": 14,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lee",
+          "emailAddress": "jordan.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_34ffc833-b0b8-4013-8213-b0a1dccf4b48",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "73b51e6d-a14c-4cef-afdf-055bb3c428a3",
+        "isPrivate": true,
+        "totalLikes": 5,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Lewis",
+          "emailAddress": "quinn.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_d4d7bfc0-d47a-421b-aeef-7e8efce07103",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "f650cf65-2362-41ed-a989-95048c036f58",
+        "isPrivate": true,
+        "totalLikes": 9,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Smith",
+          "emailAddress": "jordan.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_8398f5c2-db0a-4954-ae2d-4924e5b460b9",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "66d0ef57-57f2-4567-891a-36a0a0f4bd22",
+        "isPrivate": false,
+        "totalLikes": 13,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Lopez",
+          "emailAddress": "morgan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_d15a56b4-b4f3-4d94-9a05-20c3af6201f2",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1535d937-df0d-4846-930a-71ce26232f9e",
+        "isPrivate": false,
+        "totalLikes": 24,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Brown",
+          "emailAddress": "alex.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_547a4c50-84e5-4ca6-9522-c2b76267f591",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "5d3caa38-b5a1-4836-8bad-c2666562d4b5",
+        "isPrivate": false,
+        "totalLikes": 20,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Clark",
+          "emailAddress": "jordan.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_3b0d944f-0926-43bd-b3c6-01f618d80707",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "3f77595e-4a32-49d3-ab4a-fbc83dbc6148",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Davis",
+          "emailAddress": "alex.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_5f03f1cb-6285-4e4d-a450-391243f1b49a",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "9f2f3c31-9ac9-4784-9b32-7fce8d5d49b1",
+        "isPrivate": false,
+        "totalLikes": 16,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Lewis",
+          "emailAddress": "drew.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_db29f7d2-5d6e-4e79-9b54-41f0a44634cc",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "5345c42e-37ed-4c52-b415-343eceddb347",
+        "isPrivate": true,
+        "totalLikes": 9,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Brown",
+          "emailAddress": "morgan.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_562ba56e-7822-4d3d-b71c-e788abc7fad1",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "4b4724a5-0b2e-4c57-b90a-a95fadab451d",
+        "isPrivate": false,
+        "totalLikes": 3,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lee",
+          "emailAddress": "riley.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_59ac4aaf-8d9c-4e7d-9647-a5bd25f0f301",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "71e224a5-4c85-4533-a5aa-7063cbf9c48b",
+      "milestoneName": "1-Year Anniversary",
+      "date": "2026-11-04T15:34:12.782706",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652782_1309b281-df7e-4b74-8f7c-65adc36385b5",
+      "totalInvites": 15,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "totalLikes": 9
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Johnson",
+        "emailAddress": "morgan.johnson@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_28ea4218-df21-4471-8225-9021de36c251",
+        "jobTitle": "Marketing Lead",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "863c55f4-9713-4855-b050-b7ada1b690e5",
+        "isPrivate": true,
+        "totalLikes": 1,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Brown",
+          "emailAddress": "riley.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_c1c4250f-325c-4880-97de-daa19aff45e8",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "db8d005b-0f32-4a57-8610-dbed9cdad5de",
+        "isPrivate": false,
+        "totalLikes": 8,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Brown",
+          "emailAddress": "avery.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_3b16f1eb-6a28-4b6f-9a47-b1c093759b12",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "9889e97a-41ab-464a-9128-b997a5bb4130",
+        "isPrivate": true,
+        "totalLikes": 11,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Lee",
+          "emailAddress": "avery.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_2f8c7758-5111-4f2f-be63-d31941dccade",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "f1622a8e-8aff-4097-95cc-d2ef20a65c37",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lopez",
+          "emailAddress": "riley.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_fa57644c-6cf4-42b7-988c-dbe281c70d4e",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "ee5fe6f0-cf28-47bb-a539-186bc1209c44",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Garcia",
+          "emailAddress": "quinn.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_47a9b2ed-8b9e-4cdb-8173-546ddb313225",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "21cd05d1-e1d6-4a0c-8f6d-9de3ee6daffa",
+        "isPrivate": false,
+        "totalLikes": 29,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Davis",
+          "emailAddress": "jamie.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_08c5da92-f829-45ad-adca-7c7219f86f3c",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "362c5fbf-38ac-455e-a27e-5413da99d04c",
+        "isPrivate": true,
+        "totalLikes": 10,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Johnson",
+          "emailAddress": "jamie.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_4d41b622-c40a-431c-b710-10078c6c5d83",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "371c88a8-bd8b-4414-a712-0652c58cd430",
+        "isPrivate": false,
+        "totalLikes": 8,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Garcia",
+          "emailAddress": "avery.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_a843f1b5-a1af-41a8-bde6-6941ebdac762",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "3a29b7ec-26c9-4ade-b74c-6cdb23798867",
+        "isPrivate": false,
+        "totalLikes": 27,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Brown",
+          "emailAddress": "jamie.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_6c2c0c26-dfc0-4e1f-b5b5-a9c436cd7c73",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "152b6aa2-23e7-4f25-9274-169be2dd1003",
+        "isPrivate": false,
+        "totalLikes": 6,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Martinez",
+          "emailAddress": "quinn.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_ccd80e53-c8f8-42b4-9abb-630af1cae50d",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "aceb411b-8cb2-46ca-a81b-ff9b66557d70",
+      "milestoneName": "3-Year Anniversary",
+      "date": "2026-07-07T15:34:12.782890",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652782_e7eb2b43-821f-4bf0-be02-cba0de5709b0",
+      "totalInvites": 14,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "totalLikes": 25
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Johnson",
+        "emailAddress": "jordan.johnson@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_d071b8e5-8916-484a-958d-f8ec911720be",
+        "jobTitle": "Designer",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "6b344d74-3a80-4d4c-ad5e-09c6d684766a",
+        "isPrivate": false,
+        "totalLikes": 30,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Brown",
+          "emailAddress": "avery.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_644d55ff-8e54-4372-af88-7d8607753a77",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "24644fe8-3455-4e0d-8cd4-ff1ef1120541",
+        "isPrivate": true,
+        "totalLikes": 16,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Davis",
+          "emailAddress": "jordan.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_13f3f0f9-8e74-4358-a5bc-16154f1393f2",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "74ebcb4c-a759-4f7f-afb1-3d0c5611bfd5",
+        "isPrivate": true,
+        "totalLikes": 17,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Garcia",
+          "emailAddress": "drew.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_c54c624f-36f6-4235-8f0c-16790a4a186c",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "1a095a0c-e0e1-4601-a9ab-5825bd24af5d",
+        "isPrivate": true,
+        "totalLikes": 28,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Johnson",
+          "emailAddress": "quinn.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_030e74c4-fc63-4884-a0a0-b8e47c52ca0e",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "504f930b-a986-4ae1-8e7a-dc9b9a4d0e88",
+        "isPrivate": false,
+        "totalLikes": 29,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Lee",
+          "emailAddress": "jamie.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_988a979a-fe1b-4fe9-bc4c-cfe0bb19f1cf",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "6ed31239-a947-4b2d-a104-503aaf9d9454",
+        "isPrivate": true,
+        "totalLikes": 8,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Davis",
+          "emailAddress": "casey.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_a3a55a78-1d08-402a-b5c7-c6dd143c4e39",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "b733abd7-d3be-4747-ae04-79276fb1b98d",
+        "isPrivate": true,
+        "totalLikes": 10,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Martinez",
+          "emailAddress": "casey.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652782_71aeca51-c0fb-40e5-83be-2f88fb3255da",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "d2e30956-65f6-4b66-a608-2953c25539f4",
+        "isPrivate": false,
+        "totalLikes": 13,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Davis",
+          "emailAddress": "alex.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_c155506f-04ef-472b-a1b0-ec873dc2d1bc",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "f0964d86-0c5a-4e9b-bec9-334a2d61750d",
+        "isPrivate": false,
+        "totalLikes": 5,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Johnson",
+          "emailAddress": "taylor.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_216ad007-253b-4e8f-853c-53d1cc4d58c1",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1e5577d3-04ff-471c-924d-44f59e5a2fa5",
+        "isPrivate": false,
+        "totalLikes": 22,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Smith",
+          "emailAddress": "avery.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_b0728298-d20b-4305-a1d0-c1bcf261fee1",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "c531921f-7440-4186-99fd-ca7049a005d5",
+      "milestoneName": "2-Year Anniversary",
+      "date": "2026-02-19T15:34:12.783143",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652783_833e32e1-8289-471f-b0ba-648e0c341629",
+      "totalInvites": 6,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Wishing you continued success and happiness!",
+        "totalLikes": 2
+      },
+      "celebrator": {
+        "firstName": "Drew",
+        "lastName": "Davis",
+        "emailAddress": "drew.davis@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_6d82bb16-a822-42c7-a07e-134b6b6f7a5c",
+        "jobTitle": "Software Engineer",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "cc6fcf1e-3fa4-4950-9e9e-c86cfedea378",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Johnson",
+          "emailAddress": "avery.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_d1bde3c9-80ab-45d5-b3f0-81cadcd384ad",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "f256c3c9-b6d4-4af7-b30c-a4f8c7d3fbe6",
+        "isPrivate": false,
+        "totalLikes": 16,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Garcia",
+          "emailAddress": "avery.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_446acca4-e85d-4d31-9e3a-c6dfc2abcc6a",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "b0e3d616-e447-471e-81b8-28f14d84d2a7",
+        "isPrivate": false,
+        "totalLikes": 28,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Martinez",
+          "emailAddress": "jordan.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_df631b68-f961-4cfa-865e-ebb51831b4cf",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "040f1aa6-86b3-4d7a-8029-82b740493080",
+        "isPrivate": true,
+        "totalLikes": 2,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Lopez",
+          "emailAddress": "jamie.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_c4f56ca0-5658-4dcb-ac4b-0c81f3f35ac8",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "957be33c-cdb8-481e-b8be-6551b3011fb6",
+        "isPrivate": true,
+        "totalLikes": 0,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Davis",
+          "emailAddress": "quinn.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_8a6183d8-48d3-4012-8e3e-81fabe880fc8",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "7ee1d8a5-72ac-48c1-a2af-92d99f9aaefa",
+        "isPrivate": false,
+        "totalLikes": 23,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Martinez",
+          "emailAddress": "avery.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_6b2ae0cf-f261-4c76-a883-b9fe50907573",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "810bf917-ef0f-4d95-9ed9-307e3a039027",
+        "isPrivate": false,
+        "totalLikes": 20,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Brown",
+          "emailAddress": "jordan.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_70aeebb2-ca94-4f29-9a88-dc024e5b1a93",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "816269ab-d383-4474-9d4e-7439118faad0",
+        "isPrivate": true,
+        "totalLikes": 30,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Smith",
+          "emailAddress": "riley.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_b6e72aab-db69-41b2-8fe5-cdef47aee12b",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "c1d4651e-0027-4c23-acf7-a82632a27f21",
+        "isPrivate": false,
+        "totalLikes": 25,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Martinez",
+          "emailAddress": "alex.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_d5896fab-0e98-4b38-92ed-4bba06ce16a5",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "e4017285-8086-4cad-811d-3b0f4f251e58",
+        "isPrivate": true,
+        "totalLikes": 8,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lewis",
+          "emailAddress": "riley.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_5e9a2277-d539-4d00-bf33-cd3f765caa08",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "51f8c0df-ec88-4d78-8ada-9e124d1437d0",
+      "milestoneName": "9-Year Anniversary",
+      "date": "2026-01-13T15:34:12.783317",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652783_88d6c9ed-03c8-4c61-bbf3-2cd383e12a81",
+      "totalInvites": 16,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "totalLikes": 31
+      },
+      "celebrator": {
+        "firstName": "Casey",
+        "lastName": "Lopez",
+        "emailAddress": "casey.lopez@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_6ba3b6bc-250b-477a-95f2-8c0970fd28f6",
+        "jobTitle": "Designer",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "cb71e757-592a-4c16-8a43-7aadf7fae422",
+        "isPrivate": false,
+        "totalLikes": 24,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Davis",
+          "emailAddress": "taylor.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_80a65747-7def-40c6-9436-e90745150c96",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "2b42c690-d76d-4bb3-852e-3bd4846cd5ac",
+        "isPrivate": false,
+        "totalLikes": 29,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Martinez",
+          "emailAddress": "morgan.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_024d79b8-f6ae-4639-85f8-89e8b767aafa",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "83d2a404-b26f-4a4f-bc02-c9dd8632d358",
+        "isPrivate": false,
+        "totalLikes": 25,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Lewis",
+          "emailAddress": "avery.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_ade71733-8109-41d3-ace8-efcac843c234",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "8c3daced-3f13-471e-9577-be433758d5c4",
+        "isPrivate": true,
+        "totalLikes": 24,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Lopez",
+          "emailAddress": "quinn.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_68656583-f216-4336-9b96-f0004449759b",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "49520735-fdf9-4c37-b1c3-e0f80e2a9cd6",
+        "isPrivate": false,
+        "totalLikes": 26,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Brown",
+          "emailAddress": "quinn.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_3b6eba85-02aa-4828-a107-93750424245f",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "3fbd6d62-d7f0-4e71-ab6b-5a4142d9e401",
+        "isPrivate": true,
+        "totalLikes": 11,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Davis",
+          "emailAddress": "jamie.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_72d84266-f27a-43c8-bd79-34b20ae225a3",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "c54ef887-f9c0-470a-aed1-e8691f65dac3",
+        "isPrivate": false,
+        "totalLikes": 20,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Johnson",
+          "emailAddress": "taylor.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_742120c7-b901-4ace-83c6-3411bcb20fcb",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "4190b20c-05d2-4d32-aff2-1366dee2f336",
+        "isPrivate": true,
+        "totalLikes": 4,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Garcia",
+          "emailAddress": "jamie.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_db0a3a41-cc2a-4afe-aec8-dc6554fa22e0",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "bf60fe01-cf62-487d-8227-3103025477ac",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Brown",
+          "emailAddress": "drew.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_fd9d5cff-5cec-4d3e-acec-690811e5b8ca",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "a39407c3-e6ff-4d7c-aeed-977c65a25345",
+        "isPrivate": true,
+        "totalLikes": 22,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Brown",
+          "emailAddress": "jordan.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_a14c6d39-00bc-46bd-b814-a9b0c5b1fff1",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "4b1604c5-d1f5-4d51-b125-bbdf951c3267",
+      "milestoneName": "1-Year Anniversary",
+      "date": "2026-08-12T15:34:12.783588",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652783_3d5dafaa-8120-4686-be6f-d56a7cce1042",
+      "totalInvites": 16,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "totalLikes": 8
+      },
+      "celebrator": {
+        "firstName": "Jamie",
+        "lastName": "Davis",
+        "emailAddress": "jamie.davis@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_50db2f69-c47a-485e-8bb6-1768c4e7543d",
+        "jobTitle": "QA Analyst",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "53a30266-ea13-4f3a-b4c3-7a654af5a9df",
+        "isPrivate": true,
+        "totalLikes": 26,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Brown",
+          "emailAddress": "jamie.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_f80a87bf-2c1d-4b42-b08f-42b9d98a0265",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "2cdb4304-4e88-447e-a8b5-bdb0e499382d",
+        "isPrivate": true,
+        "totalLikes": 28,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Garcia",
+          "emailAddress": "quinn.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_af898e74-c642-40d0-83c8-f01058b590dc",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "f35f5a3f-2a99-4ec7-a468-040d622c8416",
+        "isPrivate": false,
+        "totalLikes": 3,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Garcia",
+          "emailAddress": "taylor.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_afc1d77d-aaeb-4eaf-9a31-383b89e7fefb",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "aa3185a7-c364-4e4f-b0c2-2f947b2ade35",
+        "isPrivate": false,
+        "totalLikes": 23,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Martinez",
+          "emailAddress": "riley.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_41d491e7-8c3a-4f81-a3a9-3ff1bb2f0445",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "9b448960-59f1-46af-b808-414c7ecde6ca",
+        "isPrivate": false,
+        "totalLikes": 6,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Johnson",
+          "emailAddress": "jamie.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_ff786a84-eb92-477a-b81f-00569b408b62",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "74f4035a-aa46-4173-9712-18426b695cf2",
+        "isPrivate": false,
+        "totalLikes": 11,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Johnson",
+          "emailAddress": "riley.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_dd073ca9-adfc-4d09-9702-058dc037c592",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "5e643608-0c4d-4b57-bd70-7a3e91cc9f17",
+        "isPrivate": false,
+        "totalLikes": 26,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Davis",
+          "emailAddress": "avery.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_0258bf22-6223-4a68-8c7d-a6ba40f40067",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "7c0b48d4-6ef2-499e-846f-05df0629058f",
+        "isPrivate": true,
+        "totalLikes": 22,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Davis",
+          "emailAddress": "riley.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_9ca2b38b-53d1-4bca-85ca-11a8830f3a0d",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "f6c5bb46-e852-4c30-b2d1-3677eb2c0571",
+        "isPrivate": false,
+        "totalLikes": 2,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Johnson",
+          "emailAddress": "drew.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_389a5eb1-7606-4a11-938e-ab906af2fbe7",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1a513012-166a-472e-93de-aa86fce02f7f",
+        "isPrivate": true,
+        "totalLikes": 5,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Garcia",
+          "emailAddress": "jordan.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_1526da2e-7a6f-4466-8280-c9ef5af97c51",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "c95f5152-0bf2-497c-a01d-1ab6481bf8d1",
+      "milestoneName": "8-Year Anniversary",
+      "date": "2026-05-25T15:34:12.783957",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652783_394ed1ba-8d77-45cc-99c8-bfca49c0df83",
+      "totalInvites": 17,
+      "canContribute": true,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "totalLikes": 31
+      },
+      "celebrator": {
+        "firstName": "Alex",
+        "lastName": "Smith",
+        "emailAddress": "alex.smith@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_38ae0318-d440-4d65-847c-e28b38e1c983",
+        "jobTitle": "Marketing Lead",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "b12e7c5b-23f7-4707-9880-ba6b02e59120",
+        "isPrivate": false,
+        "totalLikes": 18,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Garcia",
+          "emailAddress": "morgan.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652783_3454e3f2-bb36-46fc-bf8c-51d9f9890ccc",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "35f689cf-5684-45a6-9e1a-720ed5fb6aba",
+        "isPrivate": false,
+        "totalLikes": 9,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Lee",
+          "emailAddress": "taylor.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_0cbc45d8-fc47-4235-ac64-bc3eda04978d",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "d5c0ab4d-8c1e-412a-ade6-0a8bdd7f1156",
+        "isPrivate": false,
+        "totalLikes": 0,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Brown",
+          "emailAddress": "jordan.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_2e087a2e-b889-40f7-8b99-312cef12c5ad",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "65952bfe-4df7-4dde-8642-011d879c4466",
+        "isPrivate": true,
+        "totalLikes": 8,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Johnson",
+          "emailAddress": "casey.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_bbdd8ee2-23a0-4baa-aa1f-72370bf93c27",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "4e03e7d8-9132-4a56-a84a-e0b6a1924432",
+        "isPrivate": true,
+        "totalLikes": 14,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Johnson",
+          "emailAddress": "jordan.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_4915c1c0-b3db-4218-8bdc-871711cf455e",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "9e3a1c45-9737-439c-a5f8-303b1af7e717",
+        "isPrivate": true,
+        "totalLikes": 5,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Clark",
+          "emailAddress": "taylor.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_48e15f24-15db-4d06-a835-939062600985",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "2a6a65fc-f012-49cd-88b4-d7588e292db1",
+        "isPrivate": false,
+        "totalLikes": 27,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Garcia",
+          "emailAddress": "jamie.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_f35456ef-cbbe-4c0e-8249-83dcf83edce0",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "61546bae-2a14-4026-ab4d-e3f031c320cc",
+        "isPrivate": true,
+        "totalLikes": 28,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Lopez",
+          "emailAddress": "drew.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_bed89702-a6d8-4003-87c4-463ab45b7bc6",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1a1dbf13-cb73-425b-ab62-621ac43e7340",
+        "isPrivate": true,
+        "totalLikes": 20,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Davis",
+          "emailAddress": "jordan.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_3e019ad7-32fd-4a6f-89bd-246464f87510",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "3dc4cff7-7c40-4dcc-93f3-2d511ccb870a",
+        "isPrivate": false,
+        "totalLikes": 28,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Davis",
+          "emailAddress": "casey.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_fb34ac25-c34b-48c0-9eda-49e7d49e58fe",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "211c1246-e730-43d5-927f-5620911dc0d6",
+      "milestoneName": "6-Year Anniversary",
+      "date": "2026-04-28T15:34:12.784297",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652784_e9d579c6-933d-43fb-adb5-729636bbbbdd",
+      "totalInvites": 6,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Keep shining and reaching new heights!",
+        "totalLikes": 23
+      },
+      "celebrator": {
+        "firstName": "Quinn",
+        "lastName": "Lewis",
+        "emailAddress": "quinn.lewis@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_4205a113-bc2a-467d-81d6-d59f24f44813",
+        "jobTitle": "Sales Executive",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "6fce54e2-9298-4b82-8917-aefff617f6ab",
+        "isPrivate": false,
+        "totalLikes": 2,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Clark",
+          "emailAddress": "jamie.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_ff58267d-5dab-43fd-912d-b0d14b6a29b1",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "99e8dccc-1bdf-4eb0-850b-d18301cd7779",
+        "isPrivate": false,
+        "totalLikes": 11,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Garcia",
+          "emailAddress": "alex.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_6a6438d6-4ac6-4584-9b8b-048cfa198861",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "6ff034ca-76fd-4e89-808b-6dba70b6afb8",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Lee",
+          "emailAddress": "jamie.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_12d76c1b-7336-481c-87a5-2d4af341836a",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "521c6fcc-c2e4-4ff1-8596-0bc652f49b1f",
+        "isPrivate": true,
+        "totalLikes": 30,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Lewis",
+          "emailAddress": "avery.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_c16cb77f-f71c-4174-b51f-0aa24a696120",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "f96fd570-6c5a-4cb4-85fd-06b6ce2d1c9d",
+        "isPrivate": true,
+        "totalLikes": 0,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Smith",
+          "emailAddress": "taylor.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_9edaec05-bd10-42a1-9f86-1778379c4e04",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "b1dd4017-5c35-4cec-bd2b-de639c20b2d9",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Johnson",
+          "emailAddress": "jordan.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_3f24d2f1-ed00-4835-aabf-87128393c29e",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "e2a562f4-ba0f-4165-b077-7ecc74dfa026",
+        "isPrivate": false,
+        "totalLikes": 12,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Brown",
+          "emailAddress": "drew.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_15df28f6-e92f-4cdd-8892-890068b83999",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "3620d115-9860-4ead-a09b-5f51ea3a962c",
+        "isPrivate": true,
+        "totalLikes": 4,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Lopez",
+          "emailAddress": "avery.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_ec81d5b3-8b17-4707-aaad-cee6e4ddffea",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1ed62370-5855-4743-9ff6-fb922365aeea",
+        "isPrivate": false,
+        "totalLikes": 26,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lopez",
+          "emailAddress": "riley.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_a6cdd932-e93a-4c55-a7ec-5d0718a8d576",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "dc9a5bf4-da03-49b5-b7ee-18f157895007",
+        "isPrivate": true,
+        "totalLikes": 10,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Clark",
+          "emailAddress": "quinn.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_2c08bb46-ac01-4dfb-8efe-2165ba4a65bc",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "95bf96f4-8944-4c75-b845-72788c2688f4",
+      "milestoneName": "1-Year Anniversary",
+      "date": "2026-04-12T15:34:12.784580",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652784_5729a67c-b5c9-4c68-9353-7751b44b3e8c",
+      "totalInvites": 6,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Keep shining and reaching new heights!",
+        "totalLikes": 43
+      },
+      "celebrator": {
+        "firstName": "Jamie",
+        "lastName": "Clark",
+        "emailAddress": "jamie.clark@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_0652e8da-ab5b-4ce6-b89f-f00e39873c8a",
+        "jobTitle": "HR Specialist",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "8e7772af-7a9a-4fa1-82a1-0ba558c92276",
+        "isPrivate": false,
+        "totalLikes": 14,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Garcia",
+          "emailAddress": "avery.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_5025fbcd-0fb7-47d4-8d27-07163bd00035",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "3a682d5d-b0a1-4274-81c4-b8e5311e62c7",
+        "isPrivate": true,
+        "totalLikes": 13,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Martinez",
+          "emailAddress": "casey.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_73bc8d74-f9bf-449a-84bc-814cda7d1199",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "0dce6af2-0e9e-4ddc-b3c3-b79c02f642cd",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Davis",
+          "emailAddress": "casey.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_c88023c7-cabb-45a7-8771-3ecf6094616e",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "5c1c836a-3560-4ef3-8f32-c069c3898c91",
+        "isPrivate": false,
+        "totalLikes": 24,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Martinez",
+          "emailAddress": "casey.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_5f742495-b0f1-41f7-bb98-c196b29cd2ce",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "8c02aa63-eeb4-4cee-8bde-668a310455fd",
+        "isPrivate": false,
+        "totalLikes": 11,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Johnson",
+          "emailAddress": "quinn.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_3c4d9394-08c0-4f02-9f62-89ec5600360b",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "e6877ba0-57fd-4cd6-959d-f581a0f0d9bc",
+        "isPrivate": true,
+        "totalLikes": 14,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Smith",
+          "emailAddress": "casey.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_511df9b2-9b1c-4068-a0c1-cca6f41bcc48",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "9f471c38-4a65-4e30-9e72-af72d2bb160a",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Lee",
+          "emailAddress": "jamie.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_8164b1bc-6308-48f3-8dfd-a55258f29ed6",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "a853ee2f-83b9-47d0-adc1-8624f9a4e94c",
+        "isPrivate": true,
+        "totalLikes": 27,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Martinez",
+          "emailAddress": "riley.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_d3d8f042-fc9f-4833-b27c-7f2055064a18",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "671b2f54-b077-4136-afff-abd9b245c429",
+        "isPrivate": false,
+        "totalLikes": 26,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lee",
+          "emailAddress": "riley.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_1d95897f-d92d-41ad-a124-8c91b2cdce5e",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "c9709f6c-7c07-4c86-a591-fe453f0d1e68",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Lopez",
+          "emailAddress": "jamie.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_bab5a0d2-cb0f-40ec-9e47-9dac46bd0ab0",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "fff8a81d-58ed-4134-9863-a98e76f4b3cf",
+      "milestoneName": "4-Year Anniversary",
+      "date": "2026-04-24T15:34:12.784827",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652784_306dba52-4ff7-4f0a-8358-a59f45bed5ac",
+      "totalInvites": 12,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Keep shining and reaching new heights!",
+        "totalLikes": 41
+      },
+      "celebrator": {
+        "firstName": "Taylor",
+        "lastName": "Martinez",
+        "emailAddress": "taylor.martinez@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_b7dc0cbf-0f1e-4955-a5b8-8377d575d65e",
+        "jobTitle": "QA Analyst",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "20ae3ace-f842-4f31-a053-0e669d66e1e0",
+        "isPrivate": false,
+        "totalLikes": 27,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Brown",
+          "emailAddress": "riley.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_d32a2ca1-ef7e-42c9-af62-78aff270d474",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "ba69f759-ec78-457e-b4e9-86f8b0c266c0",
+        "isPrivate": true,
+        "totalLikes": 18,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Garcia",
+          "emailAddress": "morgan.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_bb56b516-cf12-4315-88a8-ece4b0a0f88f",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "0822951e-9dfa-4db3-b27a-639d015c78f0",
+        "isPrivate": false,
+        "totalLikes": 8,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lewis",
+          "emailAddress": "riley.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_ac74e59e-d0a5-4925-8198-5d8bbac9c873",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "2d63dcaa-c7d8-4532-ab86-9add9f8dace6",
+        "isPrivate": true,
+        "totalLikes": 7,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Johnson",
+          "emailAddress": "jordan.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_93e8dcc9-07bc-4aba-a6ae-dfe866b220e1",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "c4517981-266b-40ee-ab89-9315db2b0ad0",
+        "isPrivate": false,
+        "totalLikes": 11,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Lee",
+          "emailAddress": "alex.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_e68a0f17-82c8-4583-b493-b99571952876",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "c3141390-22eb-4246-b932-1564fed55cbc",
+        "isPrivate": false,
+        "totalLikes": 15,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Brown",
+          "emailAddress": "quinn.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_e1ba55dd-c80d-49ed-8be7-fce5ef47cfc8",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "bb692979-2d98-49c0-8f2a-26377c4c6df5",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Brown",
+          "emailAddress": "avery.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_45ac80a9-beff-45c7-8c43-63c9e4322f14",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "4be17c6a-124c-4182-a0a6-042e3c8c97fc",
+        "isPrivate": true,
+        "totalLikes": 23,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Davis",
+          "emailAddress": "casey.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_0326e146-0c74-4e9e-8c44-984d750851df",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "606f2432-57e0-42ed-9874-2e348a8f1bbd",
+        "isPrivate": false,
+        "totalLikes": 5,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Garcia",
+          "emailAddress": "drew.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_a9ff3dae-1bbd-470a-b0c6-285878f7a627",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "489ac792-fafb-45f4-b5f9-898ba48ba420",
+        "isPrivate": true,
+        "totalLikes": 21,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Davis",
+          "emailAddress": "drew.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_63571763-d0a4-448f-8d40-a5b912d5a971",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "481f91f0-1566-40df-b0e5-cd0d8361a486",
+      "milestoneName": "10-Year Anniversary",
+      "date": "2025-11-24T15:34:12.785001",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652784_49d6af82-f433-41e6-be23-f4350ab1c028",
+      "totalInvites": 7,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "totalLikes": 41
+      },
+      "celebrator": {
+        "firstName": "Jordan",
+        "lastName": "Martinez",
+        "emailAddress": "jordan.martinez@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652784_d2eddb31-77ab-493f-b20e-6cddfed67f2a",
+        "jobTitle": "Designer",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "84586116-28a5-4b23-af2a-614d1cbbe390",
+        "isPrivate": true,
+        "totalLikes": 7,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Garcia",
+          "emailAddress": "casey.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_bcd67867-e786-4577-a217-3e1de7b3e0d2",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "d3138210-ee24-4199-b36f-73312b9d1459",
+        "isPrivate": true,
+        "totalLikes": 2,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Martinez",
+          "emailAddress": "jamie.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_b2ff221c-a6b6-40b7-9523-59348ca75c0e",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "f9ffe46c-685f-4923-83be-881ed0b076fb",
+        "isPrivate": true,
+        "totalLikes": 21,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Clark",
+          "emailAddress": "drew.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_0f35f278-bb7a-4888-9635-5cd4d5312e8b",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "575e5949-6c48-42df-9a40-a32eb4a62804",
+        "isPrivate": true,
+        "totalLikes": 3,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Garcia",
+          "emailAddress": "quinn.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_199736b0-b2e7-49d2-b478-3454fa179681",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "33f6f0f1-fd55-4212-9174-52f626df5b2f",
+        "isPrivate": true,
+        "totalLikes": 6,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Brown",
+          "emailAddress": "casey.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_20832bed-cb81-4277-a4f2-d620717e0ad5",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "fa07d8b2-95b3-4027-ac18-7845c8ebf22b",
+        "isPrivate": true,
+        "totalLikes": 26,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Clark",
+          "emailAddress": "taylor.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_4342ebf1-0945-4935-8a0d-fd6bad22a5e7",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "e885858a-5019-4832-991e-e22527a1c0d5",
+        "isPrivate": false,
+        "totalLikes": 28,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Lewis",
+          "emailAddress": "alex.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_52ebc821-fc44-4d40-ae00-38d19f1a1d30",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "4030cad6-8214-4dd6-ad80-51e471c07d1e",
+        "isPrivate": true,
+        "totalLikes": 27,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Clark",
+          "emailAddress": "morgan.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_ecbee6ee-aeae-4b85-8ab7-9815f734eb5f",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "8d9c6b6e-0ffa-47fc-9b21-b92cebdb38f7",
+        "isPrivate": false,
+        "totalLikes": 2,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Garcia",
+          "emailAddress": "avery.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_2d45d874-f33b-4d76-958b-21d135b24d6a",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "f02179f2-367e-478d-8a7b-2617ba77dd07",
+        "isPrivate": true,
+        "totalLikes": 1,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Martinez",
+          "emailAddress": "casey.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_a9e23771-bf3b-4741-8203-10ed8c77bcd8",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "8b02c8de-a5f3-4953-894e-d082cc87a5db",
+      "milestoneName": "3-Year Anniversary",
+      "date": "2026-10-28T15:34:12.785281",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652785_4e5a4d48-bfc0-4533-b135-b64bc48c7fca",
+      "totalInvites": 14,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "totalLikes": 15
+      },
+      "celebrator": {
+        "firstName": "Jamie",
+        "lastName": "Garcia",
+        "emailAddress": "jamie.garcia@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_cfc6d6ca-7882-4b3b-9dbc-e3dc5d48dbfb",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "3edca674-71c9-4dce-bcc8-9b436296eb90",
+        "isPrivate": false,
+        "totalLikes": 27,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Lewis",
+          "emailAddress": "drew.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_3780a61e-34f1-4420-b198-396538c42815",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "0211d196-76aa-41d6-b87c-c857a1062909",
+        "isPrivate": false,
+        "totalLikes": 9,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Johnson",
+          "emailAddress": "avery.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_8fffc81a-3db0-4cd1-8604-70799cbfae10",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "27cb29d6-c678-426f-a301-51277e00b048",
+        "isPrivate": true,
+        "totalLikes": 2,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Clark",
+          "emailAddress": "quinn.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_7316603f-cdf1-4dc6-b4e2-a2beecc6dfde",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1a88a562-bb79-42ff-b8e2-d20b4b40df07",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Smith",
+          "emailAddress": "alex.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_d04da48f-0246-4bd5-bb3a-c95f95374e06",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "b89a07d4-f89e-4eaa-9fab-706347ce535c",
+        "isPrivate": true,
+        "totalLikes": 5,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Johnson",
+          "emailAddress": "jamie.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_0f254748-9cc3-4cfa-b1ac-4e60efe8c6ce",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "3c84ca7a-dcf4-4ee3-a222-113e264b2abf",
+        "isPrivate": true,
+        "totalLikes": 12,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Lee",
+          "emailAddress": "taylor.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_116a96fd-6cf9-4020-9023-9429a002d6d5",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "ab5d5baa-f27e-47ce-8b50-63e759bd5700",
+        "isPrivate": true,
+        "totalLikes": 14,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Lee",
+          "emailAddress": "alex.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_3a354664-3923-48cf-aa3a-fe7c078d0afb",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "31f63e66-041f-4c2b-9035-c9f9db6ab683",
+        "isPrivate": true,
+        "totalLikes": 7,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Martinez",
+          "emailAddress": "avery.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_1dc25be1-13d1-40f3-bf75-bab1d169b46b",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "5fef5e4a-8484-4028-8b3a-24dc03fcde56",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Lee",
+          "emailAddress": "drew.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_49dad00c-e8c1-496b-b3d1-5d6f285ee5e5",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "e7e2c1db-708b-4ada-a60c-38e91a46f128",
+        "isPrivate": false,
+        "totalLikes": 16,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Garcia",
+          "emailAddress": "alex.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_f1efa072-6b66-4996-8d8d-8f4832cc8bc3",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "0cbc4697-1029-436e-9205-6683ecc7ea08",
+      "milestoneName": "6-Year Anniversary",
+      "date": "2026-06-18T15:34:12.785484",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652785_10ff77db-b411-4d84-a159-695689830239",
+      "totalInvites": 15,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "totalLikes": 48
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Garcia",
+        "emailAddress": "morgan.garcia@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_8975ef0d-0d1e-42e9-bc9a-044e4a5c62bd",
+        "jobTitle": "QA Analyst",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "8ed05e0a-4101-4abb-afe7-e26852c484ec",
+        "isPrivate": true,
+        "totalLikes": 15,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Clark",
+          "emailAddress": "drew.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_1abd59c8-8e59-46cd-b88d-6964b91a00cc",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "a7dfacb4-8778-4cf2-9e66-f7546ba9115d",
+        "isPrivate": false,
+        "totalLikes": 26,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lewis",
+          "emailAddress": "jordan.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_d73bb087-c038-4b40-8e7b-798e20427849",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "aafd4393-7afa-4305-ab31-22d4d7890016",
+        "isPrivate": false,
+        "totalLikes": 12,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lopez",
+          "emailAddress": "jordan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_b3d0d3bc-3fa1-40af-a9d3-0adeacf37404",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "8c571bba-8d53-48d6-8567-f71f675b379e",
+        "isPrivate": false,
+        "totalLikes": 0,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Smith",
+          "emailAddress": "quinn.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_082ebfe3-b3fd-45d5-b40e-7c6c0aa7d6e7",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "540e07a7-ddc0-4a9d-b4df-515bf44d9209",
+        "isPrivate": true,
+        "totalLikes": 22,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Lewis",
+          "emailAddress": "casey.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_9b84e434-33ac-490d-826f-41e75d680102",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "bb56bfa0-60f7-45f0-b3dd-1aaa1665c413",
+        "isPrivate": true,
+        "totalLikes": 9,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Lewis",
+          "emailAddress": "taylor.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_342ef16a-841c-4d81-864b-a60e9653a04d",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "596cd372-6350-4066-b7c4-3e92fd91f95a",
+        "isPrivate": false,
+        "totalLikes": 2,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Johnson",
+          "emailAddress": "drew.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_ac615e92-0e6a-467c-81b6-830fe576a4c3",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "f3e93976-1db3-47f8-9a2f-b02309e363df",
+        "isPrivate": true,
+        "totalLikes": 22,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lewis",
+          "emailAddress": "jordan.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_522b91ce-1227-4596-b332-4c8983e340a8",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "ce059333-2227-47ae-9b88-9c83e174efa2",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Lewis",
+          "emailAddress": "casey.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_3d107b3a-4afb-4012-a5df-7c4d8fec5682",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "2f05c546-5783-480d-8afc-663b38e09195",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Lee",
+          "emailAddress": "jamie.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_a554a664-4be9-47b7-b7a5-6be1d3c7ac77",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "39345911-c561-4b9c-9da1-a0b1b79575b2",
+      "milestoneName": "9-Year Anniversary",
+      "date": "2025-11-09T15:34:12.785664",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652785_2ae62a67-af48-4e94-98f0-cc3f4a9bfe66",
+      "totalInvites": 19,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": true,
+      "thankYouMessage": {
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "totalLikes": 49
+      },
+      "celebrator": {
+        "firstName": "Morgan",
+        "lastName": "Davis",
+        "emailAddress": "morgan.davis@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_96f74b28-f71e-4afd-b30b-3ff38345aa1a",
+        "jobTitle": "Sales Executive",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "665af132-f431-47be-b1b8-ecad8103b7a9",
+        "isPrivate": true,
+        "totalLikes": 27,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Clark",
+          "emailAddress": "riley.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_b327ea23-7814-4db3-92ca-bd54e32558a2",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "f95ed467-a733-4cdd-ae2f-c87989c2c470",
+        "isPrivate": true,
+        "totalLikes": 17,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Lopez",
+          "emailAddress": "casey.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_102de124-1d49-45e3-9293-2f5e0bf8a084",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "c5003ee2-4223-409d-960c-dbc10ba8ea2d",
+        "isPrivate": false,
+        "totalLikes": 11,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Johnson",
+          "emailAddress": "morgan.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_dd4dc83a-dc3d-4d81-83ea-a57211800bd9",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "d171a050-28e8-4cea-949d-aeb210ff0c29",
+        "isPrivate": false,
+        "totalLikes": 29,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Garcia",
+          "emailAddress": "alex.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_632d8141-3236-46bf-a4f1-086f83d38f37",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "a93324b1-6467-4f98-ab35-1573d547b649",
+        "isPrivate": true,
+        "totalLikes": 14,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Lewis",
+          "emailAddress": "avery.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_bba3923e-27ab-483f-93d0-27b3aea17f4c",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "77bc9c22-92c0-4327-a69d-12a94e7709f7",
+        "isPrivate": true,
+        "totalLikes": 14,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lopez",
+          "emailAddress": "jordan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652785_450f9913-987f-44c6-9ee0-43c2bd1507ed",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "64626f50-4c4d-4d4f-9dbe-a8c494bf0d40",
+        "isPrivate": false,
+        "totalLikes": 3,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Davis",
+          "emailAddress": "taylor.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_3e30d3d4-3818-4368-b4e7-143e19602ab8",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "8adbe49c-b32e-4d13-96f2-928522d759a6",
+        "isPrivate": false,
+        "totalLikes": 17,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Lee",
+          "emailAddress": "avery.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_8f94b713-84ba-4817-a88e-d585be85d9ef",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "8a59ed5a-bac2-4f6a-93c3-a218b434121c",
+        "isPrivate": false,
+        "totalLikes": 10,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lee",
+          "emailAddress": "jordan.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_9db12f8c-f36e-4f2c-ae9c-247ba8df637d",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "a305be5e-85f7-4b5f-ab56-686389f8a445",
+        "isPrivate": false,
+        "totalLikes": 10,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Lee",
+          "emailAddress": "quinn.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_0379a4fb-0c1a-4fac-950a-69d8906dd08d",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "8f61b260-ad3c-4d55-a9d3-a7b24c10a0a5",
+      "milestoneName": "6-Year Anniversary",
+      "date": "2025-12-07T15:34:12.786619",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652786_bc53c5de-1df1-4924-b4ac-4ec9ea268fb5",
+      "totalInvites": 19,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Keep shining and reaching new heights!",
+        "totalLikes": 47
+      },
+      "celebrator": {
+        "firstName": "Avery",
+        "lastName": "Lee",
+        "emailAddress": "avery.lee@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_624a2df0-40f5-45ba-9321-6dc063ce4520",
+        "jobTitle": "Sales Executive",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "6d013434-e514-42c5-aead-e4070c826bbb",
+        "isPrivate": true,
+        "totalLikes": 1,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Johnson",
+          "emailAddress": "alex.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_dcfc9763-8bb0-496a-8d8a-e5899c0eab6c",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "3333c322-2aa8-42a5-8338-d0dc01955736",
+        "isPrivate": true,
+        "totalLikes": 24,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Smith",
+          "emailAddress": "morgan.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_edde5959-dec2-4d28-adfe-1f915dcd0a4c",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "9b032689-fb41-4546-a2d7-b1c707570103",
+        "isPrivate": false,
+        "totalLikes": 19,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Smith",
+          "emailAddress": "avery.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_64f4c7c9-381c-47ec-9571-f153379f849f",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "463a208d-a370-4ca4-a3cf-773df0bd3cdd",
+        "isPrivate": true,
+        "totalLikes": 26,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Smith",
+          "emailAddress": "casey.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_2fa33b99-21f9-415a-a9c5-a90ab1ba4398",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "df254824-48e4-4051-82ad-0a29bf17049e",
+        "isPrivate": true,
+        "totalLikes": 0,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Martinez",
+          "emailAddress": "quinn.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_cb6534fc-1739-484d-8f60-4226edc7f9e9",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "38fba4bb-2e2a-43bc-90ee-ebbe9eeee435",
+        "isPrivate": true,
+        "totalLikes": 27,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Johnson",
+          "emailAddress": "jamie.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_240539d9-c55b-474e-b843-ddc8c33972ea",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "51268370-a7f8-45c2-a97b-c08a9b859b90",
+        "isPrivate": true,
+        "totalLikes": 0,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Johnson",
+          "emailAddress": "jordan.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_71548873-5d84-4bbf-a0a1-d99ad9b262c6",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "87809a64-ae2a-406b-9a47-1887790e8d5f",
+        "isPrivate": false,
+        "totalLikes": 10,
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lopez",
+          "emailAddress": "jordan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_00b5d80b-6ebb-4528-b276-226c7aff6e97",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "031de679-61c4-46db-acf9-c93230636978",
+        "isPrivate": false,
+        "totalLikes": 27,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Smith",
+          "emailAddress": "drew.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_57f5f94f-e7c9-4293-96f4-254e0edcff16",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "c29cb714-4952-4bea-90e8-120471044698",
+        "isPrivate": true,
+        "totalLikes": 21,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Lewis",
+          "emailAddress": "taylor.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_b582e3c3-1fc5-4740-9a04-919b09f86b66",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "a0fa55c0-2e06-4bf9-b953-a9649d5b643a",
+      "milestoneName": "1-Year Anniversary",
+      "date": "2026-02-18T15:34:12.786857",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652786_cd8afa99-a04a-4f23-8328-d588c5562acf",
+      "totalInvites": 19,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "totalLikes": 26
+      },
+      "celebrator": {
+        "firstName": "Alex",
+        "lastName": "Lewis",
+        "emailAddress": "alex.lewis@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_8c430700-60dd-4b19-af45-7be2f766e625",
+        "jobTitle": "Marketing Lead",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "91d30589-be36-4e12-8850-552f17cbe8c7",
+        "isPrivate": true,
+        "totalLikes": 4,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Martinez",
+          "emailAddress": "drew.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_667367d2-fb87-47a8-90b9-9290ee064d4c",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "0997329c-ab0a-4a08-bad6-4a8ed488fe7e",
+        "isPrivate": false,
+        "totalLikes": 1,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Garcia",
+          "emailAddress": "casey.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_c343851d-daaa-45a6-b9b4-cad9fa15a399",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "5bfefb44-d106-4c6d-88d7-bdc6645be627",
+        "isPrivate": true,
+        "totalLikes": 4,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lopez",
+          "emailAddress": "jordan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_0b176c96-1986-4c0e-b4b4-c95d700f2694",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "405ea6bb-b7c3-4120-8c5d-f1bf37ad26c3",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Smith",
+          "emailAddress": "avery.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_32ba2734-ef11-4b18-8490-37b30f47df3b",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "6fe5017a-8bbc-457d-bbfe-798148535222",
+        "isPrivate": false,
+        "totalLikes": 5,
+        "comment": "Wishing you continued success and happiness!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lewis",
+          "emailAddress": "jordan.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_0822da08-e12b-440d-895c-9957b2b65db2",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "7aa7c7cc-9285-45fe-8378-57fc95ea8bd9",
+        "isPrivate": false,
+        "totalLikes": 23,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Lopez",
+          "emailAddress": "quinn.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_18f79177-db6d-494c-8331-b717fae35d86",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "d3c3be52-f6d3-4438-b8e5-9a83eb65597f",
+        "isPrivate": true,
+        "totalLikes": 18,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Lopez",
+          "emailAddress": "quinn.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_724456d2-a24a-4df3-857b-9b9f10b64835",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "061c425b-f3cb-404c-995d-e3be0f145124",
+        "isPrivate": true,
+        "totalLikes": 17,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Johnson",
+          "emailAddress": "quinn.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_23136807-02e4-4be1-8ea7-263764495bf6",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "6cc4e22e-76ba-4bae-ae44-40be651c8200",
+        "isPrivate": true,
+        "totalLikes": 10,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Clark",
+          "emailAddress": "taylor.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_c00d9d38-c4c0-4c00-ad5f-7349fc9b3ae7",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "53cd1f8c-2b98-4a8f-a947-967efe5f4fbc",
+        "isPrivate": true,
+        "totalLikes": 25,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lewis",
+          "emailAddress": "riley.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_6f5db56b-1dd7-414f-8530-263d3ba5c0e5",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "3309b81a-12b1-45ef-ae96-3ed8a40854a1",
+      "milestoneName": "9-Year Anniversary",
+      "date": "2026-06-25T15:34:12.786990",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652786_41bb2a1c-d8dd-41a3-8950-d8fd823d2d7c",
+      "totalInvites": 6,
+      "canContribute": false,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "You\u2019ve made a real impact\u2014congratulations!",
+        "totalLikes": 6
+      },
+      "celebrator": {
+        "firstName": "Drew",
+        "lastName": "Garcia",
+        "emailAddress": "drew.garcia@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652786_39877677-33cf-4b01-bdd9-1f0121f3b2b8",
+        "jobTitle": "Sales Executive",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "e1bac2fd-a2a8-4fc3-9787-4429c2ba632c",
+        "isPrivate": true,
+        "totalLikes": 1,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Lee",
+          "emailAddress": "alex.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_0e0ba31e-c181-4edd-b2c9-661e8b65d39d",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "698a9fb3-bed0-4dcc-a893-04426ae006a7",
+        "isPrivate": false,
+        "totalLikes": 16,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Lopez",
+          "emailAddress": "morgan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_a4b9afd3-179d-4cfe-a135-044c7dfc13f8",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "cc485fe1-e65f-4183-8edd-f2a1224e7801",
+        "isPrivate": false,
+        "totalLikes": 0,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Martinez",
+          "emailAddress": "avery.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_abd5865c-bb5b-4d75-89de-c856895ee03d",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "3c33cfc7-9bfb-4b66-b3d8-39c3b5f4310e",
+        "isPrivate": true,
+        "totalLikes": 22,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Smith",
+          "emailAddress": "quinn.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_8f3b55ad-ee11-4d44-b917-b137713d62f1",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "e7d721e9-7b24-4644-a75b-4defa7f637ec",
+        "isPrivate": false,
+        "totalLikes": 1,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Johnson",
+          "emailAddress": "jamie.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_9d2e9dbf-d9a0-44fb-a872-add6f367c222",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "1e2391d2-04dc-4d1a-befd-676af2068e7b",
+        "isPrivate": true,
+        "totalLikes": 26,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lewis",
+          "emailAddress": "jordan.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_8e8adc0e-5053-4eac-84c8-43fb97f930e4",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "01dcb63d-2d87-4f4c-81ac-85fb6418b895",
+        "isPrivate": true,
+        "totalLikes": 3,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Smith",
+          "emailAddress": "taylor.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_2b76d656-12fd-4dce-834b-afacb274000a",
+          "jobTitle": "HR Specialist",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "66b80f02-e8f5-4ccd-9acf-bdfbd6de3c05",
+        "isPrivate": true,
+        "totalLikes": 30,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Smith",
+          "emailAddress": "riley.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_ed3be166-e079-41c9-8954-a0661456396e",
+          "jobTitle": "QA Analyst",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "7aec61f8-2219-4aee-9ed8-751dcf75b6c5",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Lopez",
+          "emailAddress": "morgan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_b7152e04-2427-4c45-b7ca-d3169e397ba0",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "6b457f18-643d-4e4d-9fff-e61d3f30e684",
+        "isPrivate": false,
+        "totalLikes": 3,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Lee",
+          "emailAddress": "casey.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_e7dc7b64-e357-4930-9a92-eeb4dc27a2a8",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "066a64ea-a116-4ac3-87e5-9fb34fe858e5",
+      "milestoneName": "9-Year Anniversary",
+      "date": "2026-03-29T15:34:12.787099",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652787_90fdef75-e0af-486e-ad53-da0e780d0b1f",
+      "totalInvites": 15,
+      "canContribute": true,
+      "hasContributed": false,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "totalLikes": 30
+      },
+      "celebrator": {
+        "firstName": "Drew",
+        "lastName": "Johnson",
+        "emailAddress": "drew.johnson@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_9be884ed-b671-480d-bc8d-b9df750b6e83",
+        "jobTitle": "Product Manager",
+        "isInMyTeam": false
+      }
+    },
+    "comments": [
+      {
+        "commentId": "a24fc459-573f-48e5-88bc-e2f62572140e",
+        "isPrivate": false,
+        "totalLikes": 27,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Lewis",
+          "emailAddress": "drew.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_a3437135-4310-480d-968f-f6062aa0c6b3",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "49553231-3ae1-4558-939c-f007baba6fc3",
+        "isPrivate": true,
+        "totalLikes": 28,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Smith",
+          "emailAddress": "drew.smith@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_161a1849-dec6-4d4c-ae40-514ed898877e",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "978c0b55-95d0-4c9d-b53f-a655b73e7a74",
+        "isPrivate": true,
+        "totalLikes": 24,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Martinez",
+          "emailAddress": "jordan.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_544bae7f-dfe3-43e5-ac18-ec84d8bd8852",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "663f815d-b200-4026-b20d-02ae5ab04f4c",
+        "isPrivate": false,
+        "totalLikes": 16,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Garcia",
+          "emailAddress": "jordan.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_70977fb0-d752-4913-83e0-eefbdb4bb3b0",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "bb2369bb-329a-4727-9ce7-858763728c03",
+        "isPrivate": true,
+        "totalLikes": 29,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Garcia",
+          "emailAddress": "drew.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_009d007d-e8a5-4ad8-91de-c5afafbcd2ed",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "4ef7c896-407d-40d4-a966-d4f816fecc6f",
+        "isPrivate": false,
+        "totalLikes": 2,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Garcia",
+          "emailAddress": "jordan.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_311e7988-8673-45ba-8406-8d4f4a2a8e8c",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "c4246558-5859-4340-b16e-bb0868f17389",
+        "isPrivate": false,
+        "totalLikes": 29,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Jordan",
+          "lastName": "Lopez",
+          "emailAddress": "jordan.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_257b3940-7947-4b46-841c-ba4682d41014",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "08a2742a-37ef-44c0-9f17-69233aa7e915",
+        "isPrivate": false,
+        "totalLikes": 5,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lee",
+          "emailAddress": "riley.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_9688caea-e88d-423d-8a5f-6a740f6664ff",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "831dcb52-d498-43f8-b1f0-aaed16bc7efa",
+        "isPrivate": false,
+        "totalLikes": 14,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Avery",
+          "lastName": "Davis",
+          "emailAddress": "avery.davis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_adf0fa64-76e9-4767-a795-06ecc420918e",
+          "jobTitle": "Designer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "ef2b8bb4-704a-43f1-b001-71203f7722d6",
+        "isPrivate": true,
+        "totalLikes": 21,
+        "comment": "Your dedication is truly inspiring. Happy milestone!",
+        "contributor": {
+          "firstName": "Morgan",
+          "lastName": "Lewis",
+          "emailAddress": "morgan.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_fdb9d701-c653-440a-81c0-085d0b73d361",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      }
+    ]
+  },
+  {
+    "celebration": {
+      "celebrationId": "b8a77443-90b9-45db-a385-c27f303e2928",
+      "milestoneName": "7-Year Anniversary",
+      "date": "2026-04-20T15:34:12.787211",
+      "imageUrl": "https://api.biw.cloud/v1/images/images_1762529652787_0201cc13-cc87-4a38-bbd1-aa519de4c4a8",
+      "totalInvites": 14,
+      "canContribute": false,
+      "hasContributed": true,
+      "allowPrivateComments": false,
+      "thankYouMessage": {
+        "comment": "So proud to celebrate this moment with you.",
+        "totalLikes": 35
+      },
+      "celebrator": {
+        "firstName": "Drew",
+        "lastName": "Smith",
+        "emailAddress": "drew.smith@example.com",
+        "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_90fb6b0c-1e95-47da-a881-d3fcf9023d46",
+        "jobTitle": "Designer",
+        "isInMyTeam": true
+      }
+    },
+    "comments": [
+      {
+        "commentId": "778a9f8a-ee00-4fde-89a1-a9bf85261cfb",
+        "isPrivate": true,
+        "totalLikes": 14,
+        "comment": "So proud to celebrate this moment with you.",
+        "contributor": {
+          "firstName": "Drew",
+          "lastName": "Martinez",
+          "emailAddress": "drew.martinez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_e22a0a74-2628-43cc-a24d-2a600ab7e2b9",
+          "jobTitle": "Designer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "4738b265-c519-45c8-9bd7-b2d43e38b0b0",
+        "isPrivate": false,
+        "totalLikes": 10,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Taylor",
+          "lastName": "Clark",
+          "emailAddress": "taylor.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_45606ca6-5664-4a77-8a23-580964d8e035",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "ad449f8c-7d63-4bd8-9ebd-66f1b67b2a95",
+        "isPrivate": false,
+        "totalLikes": 8,
+        "comment": "Your hard work never goes unnoticed. Cheers!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Brown",
+          "emailAddress": "alex.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_9dfb3986-93b6-4732-83da-1d6489839490",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "23986a43-fc7d-4da1-9c7c-550549ad1d9a",
+        "isPrivate": false,
+        "totalLikes": 22,
+        "comment": "Thanks for always bringing your best to the team.",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Brown",
+          "emailAddress": "riley.brown@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_01db3739-121a-4f91-911e-f599c7fcd374",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "2f5c09fe-1c95-4957-9100-9c6a311f86a2",
+        "isPrivate": true,
+        "totalLikes": 9,
+        "comment": "It\u2019s been a pleasure working with you\u2014congrats!",
+        "contributor": {
+          "firstName": "Casey",
+          "lastName": "Garcia",
+          "emailAddress": "casey.garcia@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_438a3a87-87cc-40c8-81c6-1453f09ebaff",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "0c3f3274-0556-4839-b56c-32196b681094",
+        "isPrivate": false,
+        "totalLikes": 9,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Alex",
+          "lastName": "Johnson",
+          "emailAddress": "alex.johnson@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_d5f179b6-b86b-44fa-8fae-ab51a0f26967",
+          "jobTitle": "Software Engineer",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "92bee034-c0b6-4a0e-89bf-0046ed2ae8f0",
+        "isPrivate": false,
+        "totalLikes": 8,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lopez",
+          "emailAddress": "riley.lopez@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_26aa1aa4-1b12-48a4-9127-c1f78c18e584",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "77512d72-d287-4e17-a955-4331d702af27",
+        "isPrivate": false,
+        "totalLikes": 14,
+        "comment": "Here\u2019s to many more achievements ahead!",
+        "contributor": {
+          "firstName": "Riley",
+          "lastName": "Lee",
+          "emailAddress": "riley.lee@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_1267c13c-b8e8-4772-8e5b-b80b5f24e763",
+          "jobTitle": "Sales Executive",
+          "isCurrentUser": true
+        },
+        "hasReplies": false
+      },
+      {
+        "commentId": "693bfc3a-1267-4a0b-83fd-b20947f2ac4b",
+        "isPrivate": false,
+        "totalLikes": 2,
+        "comment": "Keep shining and reaching new heights!",
+        "contributor": {
+          "firstName": "Quinn",
+          "lastName": "Lewis",
+          "emailAddress": "quinn.lewis@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_36b53404-98a1-486c-8c59-c4286513d31f",
+          "jobTitle": "Product Manager",
+          "isCurrentUser": true
+        },
+        "hasReplies": true
+      },
+      {
+        "commentId": "46450dee-8dae-420a-9268-35578f70c4a7",
+        "isPrivate": false,
+        "totalLikes": 22,
+        "comment": "You\u2019re a valued part of our journey. Congrats!",
+        "contributor": {
+          "firstName": "Jamie",
+          "lastName": "Clark",
+          "emailAddress": "jamie.clark@example.com",
+          "avatarUrl": "https://api.biw.cloud/v1/images/avatar_1762529652787_f9cc8f18-f759-4450-842f-49c4f8e3eb92",
+          "jobTitle": "Marketing Lead",
+          "isCurrentUser": false
+        },
+        "hasReplies": true
+      }
+    ]
+  }
+]
