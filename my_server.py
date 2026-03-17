@@ -290,7 +290,7 @@ def get_healthnav_links():
 
     return RESPONSE_PAYLOAD
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # mcp.run()
     # mcp.run(transport="streamable-http", host="127.0.0.1", port=8080)
 
