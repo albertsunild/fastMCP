@@ -263,32 +263,24 @@ def get_healthnav_links():
     """
 
     RESPONSE_PAYLOAD = {
-        "content": [
-                    {
-                    "type": "text",
-                    "text": json.dumps({
-                        "pageNavigationLink": {
-                            "linkId": "MdclBnftsNoHpcc",
-                            "linkAbsoluteURL": "<A>View page</A>"
-                        },
-                        "relatedLinks": [
-                            {
-                                "linkId": "HEALTHNAV_LANDING_PAGE",
-                                "linkAbsoluteURL": "<A href=\"/web/testhealthnav05/healthcareNavigation\">HealthNav Landing Page</A>"
-                            },
-                            {
-                                "linkId": "COMPASS_RECOMMENDATION_FIND_DOC_LNK",
-                                "linkAbsoluteURL": "<A href=\"/web/testhealthnav05/healthcareNavigation/smartSelectMD\">Compass Recommendation Find Doc</A>"
-                            }
-                        ]
-                    })
+        "links": [
+            {
+                "linkId": "1033",
+                "linkName": "HealthNav Landing Page",
+                "url": "/web/testhealthnav05/healthcareNavigation",
+                "domain": "Ben-HM"
+                },
+                {
+                "linkId": "1039",
+                "linkName": "Compass Recommendation Find Doc",
+                "url": "/web/testhealthnav05/healthcareNavigation/smartSelectMD",
+                "domain": "Ben-CM"
                 }
-            ],
-            "isError": False
+            ]
             }
 
-
     return RESPONSE_PAYLOAD
+
 
 # if __name__ == "__main__":
     # mcp.run()
